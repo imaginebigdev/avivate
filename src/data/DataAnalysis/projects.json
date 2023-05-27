@@ -1,10 +1,10 @@
 [
   {
-    "image": "/assets/img/projects/11.jpg",
+    "image": "/assets/img/projects/pj1.png",
     "tag": "Analysis",
-    "logo": "/assets/img/logos/22.png",
-    "title": "Hayden Co. Market Data Analysis",
-    "text": "Stay focused and productive with a clean and clutter-free note space the flexible ways to organize. Everything melancholy uncommonly but solicitude.",
+    "logo": "/assets/img/logos/pj1.png",
+    "title": "Prevención",
+    "text": "Aprenderás a crear la prevención activa frente a los riesgos y peligros de la Internet de hoy",
     "client": {
       "name": "Miranda H. Halim",
       "budget": "$12,000",
@@ -12,11 +12,11 @@
     }
   },
   {
-    "image": "/assets/img/projects/6.png",
+    "image": "/assets/img/projects/pj2.png",
     "tag": "Analysis",
     "logo": "/assets/img/logos/22.png",
-    "title": "Hayden Co. Market Data Analysis",
-    "text": "Stay focused and productive with a clean and clutter-free note space the flexible ways to organize. Everything melancholy uncommonly but solicitude.",
+    "title": "Reputación",
+    "text": "Potenciarás y generarás una reputación positiva de alto impacto para tu futuro en Internet",
     "client": {
       "name": "Miranda H. Halim",
       "budget": "$12,000",
@@ -24,11 +24,23 @@
     }
   },
   {
-    "image": "/assets/img/projects/4.png",
+    "image": "/assets/img/projects/pj1.png",
     "tag": "Analysis",
     "logo": "/assets/img/logos/22.png",
-    "title": "Hayden Co. Market Data Analysis",
-    "text": "Stay focused and productive with a clean and clutter-free note space the flexible ways to organize. Everything melancholy uncommonly but solicitude.",
+    "title": "Pasión",
+    "text": "Valorarás tu Pasión, redescubriendo el mundo actual con un objetivo que te haga feliz",
+    "client": {
+      "name": "Miranda H. Halim",
+      "budget": "$12,000",
+      "estimate": "3 Months"
+    }
+  },
+  {
+    "image": "/assets/img/projects/pj2.png",
+    "tag": "Analysis",
+    "logo": "/assets/img/logos/22.png",
+    "title": "Training",
+    "text": "Accederás a un Training especializado en nuevas tecnologías y programación full stack",
     "client": {
       "name": "Miranda H. Halim",
       "budget": "$12,000",

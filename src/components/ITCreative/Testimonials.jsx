@@ -44,7 +44,7 @@ const Testimonials = () => {
                               <img src={testimonial.image} alt="" />
                             </div>
                             <div className="inf">
-                              <p> Head Of Idea </p>
+                              {/*  <p> Head Of Idea </p> */}
                               <h6>{testimonial.author}</h6>
                             </div>
                           </div>

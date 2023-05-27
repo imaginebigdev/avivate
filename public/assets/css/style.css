@@ -70,7 +70,7 @@ TABLE OF CONTENTS:-
 ================================================================*/
 /* --------------- variable --------------- */
 :root {
-  --color-main: #0066ff;
+  --color-main: #ffed4f;
   --color-primary: #0066ff;
   --color-secondary: #02b5ff;
   --color-blue2: #4a00e1;
@@ -82,15 +82,15 @@ TABLE OF CONTENTS:-
   --color-darkBlue: #010049;
   --color-darkBlue2: #1f227d;
   --color-orange1: #ff7a41;
-  --color-orange2: #f6c463;
+  --color-orange2: #ffed4f;
   --color-orange3: #f9a41f;
   --color-red1: #cc2131;
-  --color-red2: #ef1552;
+  --color-red2: #e73f7f;
   --color-green: #00c057;
   --color-yellowGreen: #cef54b;
   --color-gray: #eef4f8;
   --color-gray2: #f0eff5;
-  --color-main-grad: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%);
+  --color-main-grad: linear-gradient(to right, #ffed4f 0%, #e73f7f 100%);
 }
 
 .color-main {
@@ -2086,7 +2086,7 @@ small.text {
 .section-head.style-4 h2 {
   font-size: 40px;
   line-height: 1.3;
-  color: #000;
+  color: #3a9fe3ff;
 }
 .section-head.style-4 h2 span {
   -webkit-background-clip: text;
@@ -2095,42 +2095,42 @@ small.text {
     linear,
     left top,
     right top,
-    from(#501e9c),
-    color-stop(30%, #8169f1),
-    color-stop(30%, #8169f1),
-    color-stop(73%, #a44cee),
-    to(#ff847f)
+    from(#3a9fe3ff),
+    color-stop(30%, #e73f7fff),
+    color-stop(30%, #e73f7fff),
+    color-stop(73%, rgb(241, 123, 169)),
+    to(#ffed4f)
   );
   background-image: -webkit-linear-gradient(
     left,
-    #501e9c 0%,
-    #8169f1 30%,
-    #8169f1 30%,
-    #a44cee 73%,
-    #ff847f 100%
+    #e73f7fff 0%,
+    #e73f7fff 30%,
+    #e73f7fff 30%,
+    #ffed4f 73%,
+    #ffed4f 100%
   );
   background-image: -o-linear-gradient(
     left,
-    #501e9c 0%,
-    #8169f1 30%,
-    #8169f1 30%,
-    #a44cee 73%,
-    #ff847f 100%
+    #e73f7fff 0%,
+    #e73f7fff 30%,
+    #e73f7fff 30%,
+    #ffed4f 73%,
+    #ffed4f 100%
   );
   background-image: linear-gradient(
     to right,
-    #501e9c 0%,
-    #8169f1 30%,
-    #8169f1 30%,
-    #a44cee 73%,
-    #ff847f 100%
+    #e73f7fff 0%,
+    #e73f7fff 30%,
+    #e73f7fff 30%,
+    #ffed4f 73%,
+    #ffed4f 100%
   );
 }
 
 .section-head.style-4 h5 {
   font-size: 16px;
   font-weight: bold;
-  color: #a44cee;
+  color: #3a9fe3ff;
   display: inline-block;
   text-transform: capitalize;
   margin: 0 10px;
@@ -2205,6 +2205,7 @@ small.text {
 .section-head.style-8 h3 {
   font-size: 40px;
   text-transform: capitalize;
+  color: #3a9fe3ff;
 }
 
 /* --------------- section style-9 --------------- */
@@ -3127,7 +3128,7 @@ small.text {
 }
 .navbar.style-8 .navbar-nav .nav-item .nav-link.active,
 .navbar.style-8 .navbar-nav .nav-item .nav-link:hover {
-  border-color: #000;
+  border-color: #e73f7f;
 }
 
 .navbar.style-9.nav-scroll {
@@ -6484,8 +6485,8 @@ header.style-15 .countdown-content .logos img {
 /* --------------- choose-us style-7 --------------- */
 .choose-us.style-7 {
   position: relative;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   overflow: hidden;
 }
 .choose-us.style-7 .top-wave {
@@ -7031,8 +7032,8 @@ header.style-15 .countdown-content .logos img {
 }
 .projects.style-8 .section-head .swiper-button-next:hover,
 .projects.style-8 .section-head .swiper-button-prev:hover {
-  background: var(--color-orange1);
-  color: #fff;
+  background: var(--color-orange2);
+  color: #000;
 }
 .projects.style-8 .section-head .swiper-button-next::after,
 .projects.style-8 .section-head .swiper-button-prev::after {
@@ -7929,6 +7930,7 @@ header.style-15 .countdown-content .logos img {
 .testimonials.style-7 .testi-card .author .inf h6 {
   font-size: 18px;
   font-weight: bold;
+  color: #3a9fe3ff;
 }
 .testimonials.style-7 .get-qoute-banner {
   background-color: #fff;

@@ -23,7 +23,7 @@ const Projects = () => {
     <section className="projects style-8 section-padding" id="ejes">
       <div className="container">
         <div className="section-head style-8 mb-80 wow fadeInUp">
-          <h3> Nuestros ejes </h3>
+          <h3 style={{ color: "#3a9fe3" }}> Nuestros ejes </h3>
           <div className="arrows">
             <div className="swiper-button-next">
               <i className="fal fa-long-arrow-right"></i>
@@ -58,18 +58,24 @@ const Projects = () => {
                     <div className="project-card">
                       <div className="row align-items-center">
                         <div className="col-lg-6">
+                          <div className="info">
+                            <h4
+                              className="title"
+                              style={{ color: "#e73f7fff" }}
+                            >
+                              {" "}
+                              {project.title}{" "}
+                            </h4>
+                            <p> {project.text} </p>
+                          </div>
+                        </div>
+                        <div className="col-lg-6">
                           <div className="img">
                             <img
                               src={project.image}
                               alt=""
                               className="main-img"
                             />
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="info">
-                            <h4 className="title"> {project.title} </h4>
-                            <p> {project.text} </p>
                           </div>
                         </div>
                       </div>

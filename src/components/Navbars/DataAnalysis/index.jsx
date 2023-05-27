@@ -97,10 +97,10 @@ const Navbar = () => {
             </ul>
             <div className="nav-side">
               <button
-                className="butn bg-transparent border-main border-2 rounded-pill hover-orange1 color-main hover-shadow"
+                className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
                 type="submit"
               >
-                <span className="">
+                <span style={{ color: "#000" }}>
                   {" "}
                   Descargar PDF <i className="fal fa-long-arrow-right ms-2"></i>{" "}
                 </span>

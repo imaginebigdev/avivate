@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const Content = ({ list, rtl }) => {
   return (
-    <div className="content">
-      <div className="container">
+    <div className="content pt-100">
+      <div className="container ">
         <div className="row align-items-center">
           <div className="col-lg-8">
             <div className="img main-img2">
               <img
-                src="/assets/img/about/about_s5_2_2.png"
+                src="/assets/img/about/redes.png"
                 alt=""
                 className="img-body"
               />
@@ -16,33 +16,32 @@ const Content = ({ list, rtl }) => {
           </div>
           <div className="col-lg-4">
             <div className="section-head mb-30 style-5">
-              <h2>
-                {rtl ? "أكثر من 100" : "100+ Payment"}{" "}
-                <span>{rtl ? "بوابة دفع" : "Gateways"}</span>{" "}
-              </h2>
+              <h5 style={{ color: "#3a9fe3ff" }}>
+                <span>
+                  ¿Cuántas horas al día pasa una persona conectada a su
+                  teléfono?
+                </span>
+              </h5>
             </div>
             <p>
-              {rtl
-                ? "مع سوق Iteck ، اختر من بين مئات بوابات الدفع لعملائك. من PayPal إلى Stripe إلى Skrill ، Visa Debit ، Master Card ، إلخ"
-                : "With Iteck Marketplace, choose from hundreds of payment gateways for your customers. From PayPal to Stripe to Skrill, Visa Debit, Master Card, etc"}
+              La Argentina ocupa el quinto lugar, con un promedio de 9 horas y
+              39 minutos al día y un total de 147 días al año Se estima que el
+              usuario promedio de Internet consagra 155 minutos al día en las
+              redes sociales. <br />
+              <spna style={{ fontWeight: "bold" }}>
+                La Argentina, con una de las puntuaciones más elevadas, llega a
+                unas 3 h y 45 m, lo que equivale a 55 días al año.
+              </spna>{" "}
+              <br />
+              Así, quienes están más de dos horas mirando publicaciones en
+              Instagram, Twitter, Facebook, YouTube o TikTok, recorren unas 17
+              horas a la semana, o tres días al mes con su pantalla activa. En
+              el transcurso de un año entero, corresponde a un mes de 30 días.
+              Es ahora de despertar….{" "}
+              <span style={{ color: "#e73f7fff", fontWeight: "bold" }}>
+                AVIVATE!
+              </span>
             </p>
-            <ul className="list-icon">
-              {list.map((item, index) => (
-                <li key={index}>
-                  <span className="icon">
-                    <i className={item.icon}></i>
-                  </span>
-                  <h6>{item.title}</h6>
-                </li>
-              ))}
-            </ul>
-            <Link href="/page-contact-5">
-              <a className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold mt-50">
-                <span>
-                  {rtl ? "احجز عرضًا تجريبيًا مجانيًا " : "Book A Free Demo"}
-                </span>
-              </a>
-            </Link>
           </div>
         </div>
       </div>
