@@ -33,7 +33,7 @@ const ThirdContent = ({ features, rtl }) => {
                     }`}
                     key={index}
                   >
-                    <i className="bi bi-dot fs-2 me-2 lh-1 color-blue4"></i>
+                    <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
                     <h6 className="fw-bold">{feature.title}</h6>
                   </li>
                 ))}

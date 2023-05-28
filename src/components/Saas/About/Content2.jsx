@@ -7,12 +7,12 @@ const Content = ({ list, rtl }) => {
         <div className="row align-items-center">
           <div className="col-lg-4">
             <div className="section-head mb-30 style-5">
-              <h5 style={{ color: "#3a9fe3ff" }}>
+              <h3 style={{ color: "#3a9fe3ff" }}>
                 <span>
                   ¿Cuántas horas al día pasa una persona conectada a su
                   teléfono?
                 </span>
-              </h5>
+              </h3>
             </div>
             <p>
               La Argentina ocupa el quinto lugar, con un promedio de 9 horas y
