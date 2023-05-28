@@ -7,25 +7,26 @@
   "accordions": [
     {
       "id": 1,
-      "title": "Create and Save your notes with multi-media",
-      "content": "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
+      "title": "En los primeros 50 años de Silicon Valley...",
+      "content": "la industria creaba , productos, software y los vendía, era un negocio simple... En los últimos 10 años, las compañías en Silicon Valley han negociado vendiendo a los usuarios."
     },
     {
       "id": 2,
-      "title": "Web Clipper Extension",
-      "content": "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
+      "title": "Ya que no pagamos por los productos que usamos...",
+      "content": "los anunciantes pagan por los productos que usamos. Los anunciantes son los clientes. Nosotros somos lo que venden."
     },
     {
       "id": 3,
-      "title": "Protect your note with lock",
-      "content": "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
+      "title": "Si no pagas por el producto entonces...",
+      "content": "TU ERES EL PRODUCTO"
     }
   ],
   "thirdFeatures": [
-    { "active": false, "title": "Filtering notes using matched keywords" },
-    { "active": true, "title": "8 Beautiful themes for you select" },
-    { "active": false, "title": "Save energy for your device" },
-    { "active": false, "title": "Easy to switch between light and dark mode" }
+    { "active": true, "title": "Con nula capacidad de prestar atención" },
+    { "active": true, "title": "Ninguna capacidad de concentración" },
+    { "active": true, "title": "Con cero tolerancia a la frustración" },
+    { "active": true, "title": "Con mucho descontrol de impulsos" },
+    { "active": true, "title": "Con discapacidad para la toma de riesgos" }
   ],
   "integrations": [
     "/assets/img/about/intg1.png",

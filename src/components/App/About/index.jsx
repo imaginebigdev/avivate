@@ -10,7 +10,7 @@ const About2 = ({ noFirstContent, noIntegration, noWave, rtl }) => {
 
   return (
     <section
-      className={`about ${noWave ? "" : "section-padding"} style-4`}
+      className={`about ${noWave ? "" : "section-padding"} style-4 pt-80`}
       id="problematica"
     >
       {!noFirstContent && <FirstContent features={data.features} rtl={rtl} />}

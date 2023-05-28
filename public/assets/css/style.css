@@ -2079,7 +2079,7 @@ small.text {
   padding: 5px 10px;
   background-color: #f7f4ff;
   border-radius: 5px;
-  color: var(--color-blue4);
+  color: #3a9fe3ff;
   margin-bottom: 20px;
 }
 
@@ -10268,12 +10268,12 @@ header.style-15 .countdown-content .logos img {
   font-size: 15px;
 }
 .faq.style-3.style-4 .accordion-item .accordion-button:not(.collapsed) {
-  background-color: #f4f2fb;
-  color: var(--color-blue4);
+  background-color: #ffed4f78;
+  color: #3a9fe373;
   padding-bottom: 10px;
 }
 .faq.style-3.style-4 .accordion-item .accordion-collapse {
-  background-color: #f4f2fb;
+  background-color: #ffed4f78;
 }
 .faq.style-3.style-4 .accordion-item .accordion-collapse .accordion-body {
   font-size: 13px;

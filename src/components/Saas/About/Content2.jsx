@@ -5,15 +5,6 @@ const Content = ({ list, rtl }) => {
     <div className="content pt-100">
       <div className="container ">
         <div className="row align-items-center">
-          <div className="col-lg-8">
-            <div className="img main-img2">
-              <img
-                src="/assets/img/about/redes.png"
-                alt=""
-                className="img-body"
-              />
-            </div>
-          </div>
           <div className="col-lg-4">
             <div className="section-head mb-30 style-5">
               <h5 style={{ color: "#3a9fe3ff" }}>
@@ -42,6 +33,15 @@ const Content = ({ list, rtl }) => {
                 AVIVATE!
               </span>
             </p>
+          </div>
+          <div className="col-lg-8">
+            <div className="img main-img2">
+              <img
+                src="/assets/img/about/tiempo.png"
+                alt=""
+                className="img-body"
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -49,7 +49,7 @@ const ChooseUs = () => {
           </div>
           <div className="col-lg-6">
             <div className="img">
-              <img src="/assets/img/video01.png" alt="" />
+              <img src="/assets/img/video02.png" alt="" />
               <a
                 href="https://www.youtube.com/watch?v=71kkSWyCY3w"
                 className="play_btn"

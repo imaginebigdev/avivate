@@ -7,26 +7,25 @@ const ThirdContent = ({ features, rtl }) => {
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6">
             <div className="img mb-30 mb-lg-0">
-              <img src="/assets/img/about/about_s4_img3.png" alt="" />
+              <img src="/assets/img/about/nenes.png" alt="" />
             </div>
           </div>
           <div className="col-lg-5">
             <div className="info">
               <div className="section-head style-4">
                 <small className="title_small">
-                  {rtl ? "ثيمات جميلة" : "Beautiful Themes"}
+                  Hormona del Estrés y la corteza prefrontal
                 </small>
                 <h2 className="mb-30">
-                  {rtl ? "ركز أكثر مع" : "Focus More With"}{" "}
-                  <span>{rtl ? "المظهر الداكن" : "Dark Theme"}</span>{" "}
+                  Si a un <span>niñ@</span> le damos un{" "}
+                  <span>dispositivo móvil</span>
                 </h2>
               </div>
               <p className="text mb-40">
-                {rtl
-                  ? "قم بتطبيق سمات نوتيرو الأنيقة حسب ذوقك. تعمل السمات المظلمة بشكل ممتاز لأولئك الذين يفضلون الوضع الخالي من الإلهاء."
-                  : "Apply Notero’s elegant themes to your taste. Dark themes work excellently for those who prefer distraction-free mode."}
+                Disminumos la capacidad para que su corteza prefrontal se
+                asiente. Por lo tanto lanzamos una generación:
               </p>
-              <ul>
+              <ul className="mb-40">
                 {features.map((feature, index) => (
                   <li
                     className={`d-flex align-items-center ${
@@ -39,11 +38,23 @@ const ThirdContent = ({ features, rtl }) => {
                   </li>
                 ))}
               </ul>
-              <Link href="/page-services-5">
+              <p className="text mb-40">
+                El mal uso de las redes sociales y celular, pantallas, altera el
+                sistema nervioso , generando alto niveles de dopamina y cortisol
+                ( hormona del estres ) y sus consecuencias daña regiones
+                cerebrales que involucran la creatividad y el procesamiento de
+                emociones, atención, toma de decisiones y control cognitivo.
+              </p>
+
+              <h5>
+                Es hora de despertar…{" "}
+                <span style={{ color: "#e73f7f" }}>AVIVATE!</span>
+              </h5>
+              {/*        <Link href="/page-services-5">
                 <a className="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
-                  <small>{rtl ? "اكتشف الآن" : "Discovery Now"}</small>
+                  <small>Discovery Now</small>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

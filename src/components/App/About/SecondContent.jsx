@@ -6,18 +6,15 @@ const SecondContent = ({ accordions, rtl }) => {
           <div className="col-lg-5 order-2 order-lg-0">
             <div className="info">
               <div className="section-head style-4">
-                <small className="title_small">
-                  {rtl ? "إدارة أفضل للملاحظات" : "Better Note Management"}
-                </small>
+                {/* <small className="title_small">Better Note Management</small> */}
                 <h2 className="mb-30">
-                  {rtl ? "ملاحظاتك" : "Your Notes"}{" "}
-                  <span> {rtl ? "في امان" : "Security"} </span>
+                  Eres el <span> producto </span>
                 </h2>
               </div>
               <p className="text mb-40">
-                {rtl
-                  ? "يتزامن تلقائيًا عبر جميع أجهزتك. يمكنك أيضًا الوصول إلى الملاحظات وكتابتها بدون اتصال بالإنترنت"
-                  : "Automatically syncs across all your devices. You can also access and write notes without internet connection."}
+                Mucha gente puede decir Google es solo un buscador y Facebook un
+                lugar donde ver las cosas que hacen mis amigos y sus fotos, pero
+                no se dan cuenta que COMPITEN por nuestra atención.
               </p>
               <div className="faq style-3 style-4">
                 <div className="accordion" id="accordionExample">
@@ -56,7 +53,7 @@ const SecondContent = ({ accordions, rtl }) => {
                   ))}
                 </div>
               </div>
-              <a
+              {/*   <a
                 href="https://chrome.google.com/webstore/category/extensions"
                 rel="noreferrer"
                 className="btn btn-img mt-40 rounded-pill"
@@ -69,12 +66,12 @@ const SecondContent = ({ accordions, rtl }) => {
                   <small>{rtl ? "متاح في" : "Available in the"}</small>
                   <h6>{rtl ? "متجر كروم الالكتروني" : "Chrome Web Store"}</h6>
                 </div>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-6 order-0 order-lg-2">
             <div className="img mb-30 mb-lg-0">
-              <img src="/assets/img/about/2mobiles.png" alt="" />
+              <img src="/assets/img/about/producto.png" alt="" />
             </div>
           </div>
         </div>
