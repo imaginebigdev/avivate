@@ -10,20 +10,20 @@ const Header = () => {
             <div className="col-lg-6">
               <div className="info">
                 <h1 className="wow fadeInUp">
-                  {" "}
-                  Sábado 3 de junio <br />{" "}
+                  Sábado 3 de junio <br />
                 </h1>
                 <div className="form wow fadeInUp">
-                  <button
+                  <a
                     className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
-                    type="submit"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScsScv7qBxL7FiWu7kauc-8CGw_vmplLgWqFVkoXz-TYxxaZQ/viewform"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <span style={{ color: "#000" }}>
-                      {" "}
-                      Inscribite aqui{" "}
-                      <i className="fal fa-long-arrow-right ms-2"></i>{" "}
+                      Inscribite aqui
+                      <i className="fal fa-long-arrow-right ms-2"></i>
                     </span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

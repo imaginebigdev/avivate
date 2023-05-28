@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 const Footer = () => {
   return (
-    <footer className="style-2 pt-80 pb-60 bg-darkBlue border-top brd-light text-white">
+    <footer className="style-2 pt-80 pb-60 bg-gray2 border-top brd-light">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-3 col-sm-6">
@@ -28,28 +28,36 @@ const Footer = () => {
           <div className="col-lg-3 col-sm-6 text-end">
             <div className="socail-icons">
               <a
-                href="#"
-                className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
+                href="https://www.snapchat.com/add/avivateok"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-40 sm-butn btn border rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
               >
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-snapchat"></i>
               </a>
               <a
-                href="#"
-                className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
+                href="https://www.tiktok.com/@avivate.ar"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-40 sm-butn btn border rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
               >
-                <i className="fab fa-facebook-f"></i>
+                <i className="fab fa-tiktok"></i>
               </a>
               <a
-                href="#"
-                className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
+                href="https://www.youtube.com/@AVIVATE"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-40 sm-butn btn border rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
               >
-                <i className="fab fa-linkedin-in"></i>
+                <i className="fab fa-youtube"></i>
               </a>
               <a
-                href="#"
-                className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
+                href="https://www.instagram.com/avivate.ar/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-40 sm-butn btn border rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center"
               >
-                <i className="fab fa-github"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </div>
           </div>
