@@ -13,7 +13,7 @@ const FirstContent = ({ features, rtl }) => {
               <div className="section-head style-4">
                 {/* <small className="title_small">Notero - Easy Notes App</small> */}
                 <h2 className="mb-30">
-                  Cuanta <span> vida </span> nos podes entregar?
+                  ¿Cuanta <span> vida </span> nos podes entregar?
                 </h2>
               </div>
               <p className="text mb-40">

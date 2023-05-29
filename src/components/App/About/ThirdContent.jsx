@@ -18,7 +18,7 @@ const ThirdContent = ({ features, rtl }) => {
                 </small>
                 <h2 className="mb-30">
                   Si a un <span>niñ@</span> le damos un{" "}
-                  <span>dispositivo móvil</span>
+                  <span>dispositivo móvil...</span>
                 </h2>
               </div>
               <p className="text mb-40">
