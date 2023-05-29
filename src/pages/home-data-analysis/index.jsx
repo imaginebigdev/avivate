@@ -14,6 +14,7 @@ import Content from "@components/Saas/About/Content2";
 import About2 from "@components/App/About";
 import Footer from "@components/IT/Footer";
 import Form from "@components/Contact/Form";
+import AboutCordoba from "@components/DataAnalysis/About3";
 
 const HomeDataAnalysis = () => {
   useEffect(() => {
@@ -30,7 +31,8 @@ const HomeDataAnalysis = () => {
       <MainLayout>
         <Header />
         <main>
-          <Projects />
+          {/* <Projects /> */}
+          <AboutCordoba />
           <About />
           <ChooseUs />
           <Testimonials />

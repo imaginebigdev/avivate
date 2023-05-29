@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="about style-8 section-padding bg-gray2" id="nosotros">
+    <section className="about style-8 section-padding bg-white" id="nosotros">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6">
             <div className="img mb-4 mb-lg-0 wow fadeIn">
-              <img src="/assets/img/about/about1.png" alt="" />
+              <img src="/assets/img/header/header1.png" alt="" />
             </div>
           </div>
           <div className="col-lg-5">

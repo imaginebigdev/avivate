@@ -1,6 +1,15 @@
 import Navbar from "@components/Navbars/DataAnalysis";
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
+import "react-modal-video/css/modal-video.css";
 
 const Header = () => {
+  const [isOpen, setOpen] = useState(false);
+
+  const openVideo = (e) => {
+    e.preventDefault();
+    setOpen(true);
+  };
   return (
     <header className="style-8 bg-gray2" id="inicio">
       <Navbar />
@@ -28,10 +37,31 @@ const Header = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="img mt-4 mt-lg-0 wow fadeIn">
-                <img src="/assets/img/header/header1.png" alt="" />
+              <div className="img">
+                <a
+                  href="https://www.youtube.com/watch?v=ydlGbK4yQzc"
+                  className="play_btn"
+                  onClick={openVideo}
+                >
+                  <img src="/assets/img/about/about1.png" alt="" />
+                  {/*  <i className="fas fa-play"></i> */}
+                </a>
               </div>
+              {typeof window !== "undefined" && (
+                <ModalVideo
+                  channel="youtube"
+                  autoplay
+                  isOpen={isOpen}
+                  videoId="ydlGbK4yQzc"
+                  onClose={() => setOpen(false)}
+                />
+              )}
             </div>
+            {/*  <div className="col-lg-6">
+              <div className="img mt-4 mt-lg-0 wow fadeIn">
+                <img src="/assets/img/about/about1.png" alt="" />
+              </div> 
+            </div> */}
           </div>
         </div>
       </div>
