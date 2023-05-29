@@ -43,7 +43,7 @@ const Header = () => {
                   className="play_btn"
                   onClick={openVideo}
                 >
-                  <img src="/assets/img/about/about1.png" alt="" />
+                  <img src="/assets/img/about/aboutvideo.png" alt="" />
                   {/*  <i className="fas fa-play"></i> */}
                 </a>
               </div>
