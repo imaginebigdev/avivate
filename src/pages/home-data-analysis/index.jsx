@@ -9,7 +9,6 @@ import Projects from "@components/DataAnalysis/Projects";
 import Testimonials from "@components/ITCreative/Testimonials";
 import ChooseUs from "@components/ITCreative/ChooseUs";
 import aboutData from "@data/Saas/about.json";
-
 import Content from "@components/Saas/About/Content2";
 import About2 from "@components/App/About";
 import Footer from "@components/IT/Footer";
@@ -38,7 +37,7 @@ const HomeDataAnalysis = () => {
           <Testimonials />
           <Content list={aboutData.list} />
           <About2 noWave noIntegration />
-          <Form />
+          <Form style="5" />
         </main>
         <Footer />
       </MainLayout>

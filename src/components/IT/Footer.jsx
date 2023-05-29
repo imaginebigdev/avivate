@@ -64,11 +64,16 @@ const Footer = () => {
         </div>
         <div className="text-center mt-30">
           <div className="small">
-            <span className="op-6">© 2022 Copyrights by </span>
-            <a href="#" className="mx-1">
-              Iteck Co.
+            <span className="op-6">© 2023 Hecho con pasion por </span>
+            <a
+              href="https://www.imaginebig.dev/"
+              className="mx-1 color-blue4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Imagine Big
             </a>
-            <span className="op-6"> All Rights Reserved.</span>
+            <span className="op-6"> Todo los derechos reservados</span>
           </div>
         </div>
       </div>
