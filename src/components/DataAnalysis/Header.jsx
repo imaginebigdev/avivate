@@ -10,7 +10,7 @@ const Header = () => {
             <div className="col-lg-6">
               <div className="info">
                 <h1 className="wow fadeInUp">
-                  Sábado 3 de junio <br />
+                  Sábado 10 de junio <br />
                 </h1>
                 <div className="form wow fadeInUp">
                   <a

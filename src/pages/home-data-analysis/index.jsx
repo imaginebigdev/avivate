@@ -13,6 +13,7 @@ import aboutData from "@data/Saas/about.json";
 import Content from "@components/Saas/About/Content2";
 import About2 from "@components/App/About";
 import Footer from "@components/IT/Footer";
+import Form from "@components/Contact/Form";
 
 const HomeDataAnalysis = () => {
   useEffect(() => {
@@ -35,6 +36,7 @@ const HomeDataAnalysis = () => {
           <Testimonials />
           <Content list={aboutData.list} />
           <About2 noWave noIntegration />
+          <Form />
         </main>
         <Footer />
       </MainLayout>
