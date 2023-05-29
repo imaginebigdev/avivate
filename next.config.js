@@ -3,6 +3,7 @@ const path = require("path");
 
 const nextConfig = {
   reactStrictMode: false,
+  distDir: "build",
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
   },
@@ -13,6 +14,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
