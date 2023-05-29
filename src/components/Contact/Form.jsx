@@ -1,45 +1,74 @@
 import { useState } from "react";
-import axios from "axios";
-import contactInfo from "@data/Contact/form.json";
-import contactInfoRTL from "@data/Contact/form-rtl.json";
+import emailjs from "@emailjs/browser";
 
 const Form = ({ style = "4", rtl }) => {
   const [formData, setFormdata] = useState({
     name: "",
     email: "",
     phone: "",
-    website: "",
-    option: "",
+    city: "",
     message: "",
   });
-
-  const contactInfoData = rtl ? contactInfoRTL : contactInfo;
+  const [errors, setErrors] = useState({
+    email: "",
+    phone: 0,
+  });
 
   const handleFormChange = (e) => {
     setFormdata((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
     }));
+    const errores = validador({ ...formData, [e.target.name]: e.target.value });
+    setErrors(errores);
   };
 
-  const handleFormSubmit = async (e) => {
+  const validador = (inputs) => {
+    let validations = {};
+    const emailExpresion =
+      /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+
+    const phoneExpression = /^[0-9]{10}$/;
+    if (!inputs.email) {
+      validations.email = "ingrese su email";
+    } else if (!emailExpresion.test(inputs.email)) {
+      validations.email = "Debe ingresar un email valido";
+    }
+    if (!inputs.phone) {
+      validations.phone = "Debe ingresar su telefono";
+    } else if (!phoneExpression.test(inputs.phone)) {
+      validations.phone = "Ingrese un numero de telefono valido";
+    }
+    return validations;
+  };
+
+  const handleFormSubmit = (e) => {
     e.preventDefault();
-    const formValues = new FormData();
+    if (!errors.email && !errors.phone) {
+      emailjs
+        .send(
+          "service_hnmwgwg",
+          "template_9k0xxkd",
+          formData,
+          "wOUw39SJsGoazsJ5B"
+        )
+        .then((res) => {
+          alert("Mensaje enviado correctamente");
+        })
+        .catch((res) => {
+          console.error(res);
+        });
 
-    formValues.append("name", formData.name);
-    formValues.append("email", formData.email);
-    formValues.append("phone", formData.phone);
-    formValues.append("website", formData.website);
-    formValues.append("option", formData.option);
-    formValues.append("message", formData.message);
-
-    const res = await axios
-      .post("/contact.php", formValues)
-      .catch((err) => alert(err.message));
-
-    if (!res) return;
-
-    alert("Form submitted successfully.");
+      setFormdata({
+        name: "",
+        email: "",
+        phone: "",
+        city: "",
+        message: "",
+      });
+      return;
+    }
+    alert("Campos faltantes o incorrectos");
   };
 
   return (
@@ -47,30 +76,17 @@ const Form = ({ style = "4", rtl }) => {
       className={`contact section-padding pt-${
         style === "4" ? "0" : "50"
       } style-6`}
+      id="contacto"
     >
       {style === "5" && (
         <>
           <div className="section-head text-center mb-100 style-5">
-            <h2 className="mb-20">
-              {rtl ? "يسعدنا" : "Get In"}{" "}
-              <span>{rtl ? "تواصلك" : "Touch"}</span> {rtl && "معنا"}
-            </h2>
+            <h2 className="mb-20">{rtl ? "يسعدنا" : "Se un Facilitador!"} </h2>
             <p>
               {rtl
                 ? "سنتواصل معك مرة أخرى بعد استلام طلبك خلال 24 ساعة"
-                : "We will contact again after receive your request in 24h"}
+                : "Dejanos tus datos si queres formar parte de los facilitadores de Argentina! (Facilitador es quien trabaja y contribuye para hacer posible el Avivate en una ciudad)"}
             </p>
-          </div>
-          <div className="text-center mb-100">
-            <h2 className="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">
-              {contactInfoData.phone}
-            </h2>
-            <h4 className="fw-normal mb-20 color-000">
-              {contactInfoData.email}
-            </h4>
-            <h4 className="fw-normal mb-10 color-000">
-              {contactInfoData.address}
-            </h4>
           </div>
         </>
       )}
@@ -87,7 +103,7 @@ const Form = ({ style = "4", rtl }) => {
                 <p className="text-center text-danger fs-12px mb-30">
                   {rtl
                     ? "الحقل اللذى يحتوى على هذة العلامة اجبارى *"
-                    : "The field is required mark as *"}
+                    : "Los campos marcados con * son obligatorios"}
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
@@ -96,7 +112,7 @@ const Form = ({ style = "4", rtl }) => {
                         type="text"
                         name="name"
                         className="form-control"
-                        placeholder={rtl ? "الاسم" : "Name"}
+                        placeholder={rtl ? "الاسم" : "Nombre *"}
                         onChange={handleFormChange}
                       />
                     </div>
@@ -107,11 +123,10 @@ const Form = ({ style = "4", rtl }) => {
                         type="text"
                         name="email"
                         className="form-control"
-                        placeholder={
-                          rtl ? "البريد الالكترونى *" : "Email Address *"
-                        }
+                        placeholder={rtl ? "البريد الالكترونى *" : "Email *"}
                         onChange={handleFormChange}
                       />
+                      {errors.email ? <div>{errors.email}</div> : null}
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -121,49 +136,29 @@ const Form = ({ style = "4", rtl }) => {
                         name="phone"
                         className="form-control"
                         placeholder={
-                          rtl ? "رقم الهاتف (اختياري)" : "Phone Number (option)"
+                          rtl ? "رقم الهاتف (اختياري)" : "Numero de telefono *"
                         }
                         onChange={handleFormChange}
                       />
+                      {errors.phone ? <div>{errors.phone}</div> : null}
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group mb-20">
                       <input
                         type="text"
-                        name="website"
+                        name="city"
                         className="form-control"
                         placeholder={
-                          rtl ? "رابط موقعك (اختيارى)" : "Your Website (option)"
+                          rtl
+                            ? "رابط موقعك (اختيارى)"
+                            : "¿De que ciudad nos escribis?"
                         }
                         onChange={handleFormChange}
                       />
                     </div>
                   </div>
-                  <div className="col-lg-12">
-                    <div className="form-group mb-20">
-                      <select
-                        className="form-select"
-                        defaultValue={
-                          rtl ? "كيف يمكننا مساعدتك ؟" : "How can we help you?"
-                        }
-                        name="option"
-                        onChange={handleFormChange}
-                      >
-                        <option value="how can we help">
-                          {rtl
-                            ? "كيف يمكننا مساعدتك ؟"
-                            : "How can we help you?"}
-                        </option>
-                        <option value="option 1">
-                          {rtl ? "الاختيار الاول" : "option 1"}
-                        </option>
-                        <option value="option 2">
-                          {rtl ? "الاختيار الثاني" : "option 2"}
-                        </option>
-                      </select>
-                    </div>
-                  </div>
+
                   <div className="col-lg-12">
                     <div className="form-group">
                       <textarea
@@ -171,54 +166,24 @@ const Form = ({ style = "4", rtl }) => {
                         name="message"
                         className="form-control"
                         placeholder={
-                          rtl ? "كيف يمكننا مساعدتك ؟" : "How can we help you?"
+                          rtl ? "كيف يمكننا مساعدتك ؟" : "Escribinos..."
                         }
                         onChange={handleFormChange}
                       ></textarea>
                     </div>
                   </div>
-                  <div className="col-lg-12 text-center">
-                    <div className="form-check d-inline-flex mt-30 mb-30">
-                      <input
-                        className="form-check-input me-2 mt-0"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                      <label
-                        className="form-check-label small"
-                        htmlFor="flexCheckDefault"
-                      >
-                        {rtl
-                          ? "من خلال الإرسال ، أوافق على"
-                          : "By submitting, i’m agreed to the"}{" "}
-                        <a href="#" className="text-decoration-underline">
-                          {rtl ? "الشروط و الاحكام" : "Terms & Conditons"}
-                        </a>
-                      </label>
-                    </div>
-                  </div>
-                  <div className="col-lg-12 text-center">
+
+                  <div className="col-lg-12 text-center mt-30">
                     <input
                       type="submit"
-                      value={rtl ? "ارسل طلبك" : "Send Your Request"}
-                      className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold text-light"
+                      value={rtl ? "ارسل طلبك" : "Enviar mensaje"}
+                      className="btn rounded-pill blue5-3Dbutn hover-red2 sm-butn fw-bold text-light"
                     />
                   </div>
                 </div>
               </form>
             </div>
           </div>
-          <img
-            src="/assets/img/icons/contact_a.png"
-            alt=""
-            className="contact_a"
-          />
-          <img
-            src="/assets/img/icons/contact_message.png"
-            alt=""
-            className="contact_message"
-          />
         </div>
       </div>
     </section>

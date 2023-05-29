@@ -94,6 +94,16 @@ const Navbar = () => {
                   Problematica
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="contacto"
+                  smooth="true"
+                  duration={100}
+                >
+                  Contacto
+                </Link>
+              </li>
             </ul>
             <div className="nav-side">
               <a
