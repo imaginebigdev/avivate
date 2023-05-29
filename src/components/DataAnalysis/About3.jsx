@@ -26,6 +26,17 @@ const AboutCordoba = () => {
                   Transformación digital generación{" "}
                   <span style={{ color: "#e73f7fff" }}>Z</span>
                 </h2>
+                <a
+                  className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                  href="/assets/files/pdfCordoba2023.pdf"
+                  download="Avivate2023.pdf"
+                >
+                  <span style={{ color: "#000" }}>
+                    {" "}
+                    Descargar PDF{" "}
+                    <i className="fal fa-long-arrow-right ms-2"></i>{" "}
+                  </span>
+                </a>
               </div>
             </div>
           </div>
