@@ -30,7 +30,7 @@ const HomeDataAnalysis = () => {
       <MainLayout>
         <Header />
         <main>
-          {/* <Projects /> */}
+          <Projects />
           <AboutCordoba />
           <About />
           <ChooseUs />
