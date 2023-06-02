@@ -14,6 +14,7 @@ import About2 from "@components/App/About";
 import Footer from "@components/IT/Footer";
 import Form from "@components/Contact/Form";
 import AboutCordoba from "@components/DataAnalysis/About3";
+import RobotDialog from "@components/DataAnalysis/Robot";
 
 const HomeDataAnalysis = () => {
   useEffect(() => {
@@ -37,6 +38,7 @@ const HomeDataAnalysis = () => {
           <Testimonials />
           <Content list={aboutData.list} />
           <About2 noWave noIntegration />
+          {/* <RobotDialog /> */}
           <Form style="5" />
         </main>
         <Footer />

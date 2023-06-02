@@ -12,16 +12,19 @@ const Footer = () => {
           <div className="col-lg-6" style={{ textAlign: "center" }}>
             <div className="foot_links text-uppercase text-center small">
               <Link to="inicio" smooth="true" duration={100}>
-                <a className="mx-4">Inicio </a>
+                <span className="mx-4">Inicio </span>
               </Link>
               <Link to="ejes" smooth="true" duration={100}>
-                <a className="mx-4">Ejes </a>
+                <span className="mx-4">Ejes </span>
               </Link>
               <Link to="nosotros" smooth="true" duration={100}>
-                <a className="mx-4">Nosotros </a>
+                <span className="mx-4">Nosotros </span>
               </Link>
               <Link to="problematica" smooth="true" duration={100}>
-                <a className="mx-4">Problematica </a>
+                <span className="mx-4">Problemática </span>
+              </Link>
+              <Link to="contacto" smooth="true" duration={100}>
+                <span className="mx-4">Contacto </span>
               </Link>
             </div>
           </div>
