@@ -1,4 +1,5 @@
 import Navbar from "@components/Navbars/DataAnalysis";
+import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
@@ -20,9 +21,10 @@ const Header = () => {
               <div className="info">
                 <h1 className="wow fadeInUp">
                   Sábado 10 de junio <br />
+                  <small>Polideportivo - Villa Del Prado</small>
                 </h1>
                 <div className="form wow fadeInUp">
-                  <a
+                  <Link
                     className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
                     href="https://docs.google.com/forms/d/e/1FAIpQLScsScv7qBxL7FiWu7kauc-8CGw_vmplLgWqFVkoXz-TYxxaZQ/viewform"
                     target="_blank"
@@ -32,20 +34,19 @@ const Header = () => {
                       Inscribite aqui
                       <i className="fal fa-long-arrow-right ms-2"></i>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="img">
-                <a
+                <Link
                   href="https://www.youtube.com/watch?v=ydlGbK4yQzc"
                   className="play_btn"
                   onClick={openVideo}
                 >
-                  <img src="/assets/img/about/aboutvideo.png" alt="" />
-                  {/*  <i className="fas fa-play"></i> */}
-                </a>
+                  <img src="/assets/img/about2.png" alt="img" />
+                </Link>
               </div>
               {typeof window !== "undefined" && (
                 <ModalVideo
