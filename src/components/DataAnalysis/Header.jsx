@@ -24,7 +24,7 @@ const Header = () => {
                   <small>Polideportivo - Villa Del Prado</small>
                 </h1>
                 <div className="form wow fadeInUp">
-                  <Link
+                  <a
                     className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
                     href="https://docs.google.com/forms/d/e/1FAIpQLScsScv7qBxL7FiWu7kauc-8CGw_vmplLgWqFVkoXz-TYxxaZQ/viewform"
                     target="_blank"
@@ -34,19 +34,19 @@ const Header = () => {
                       Inscribite aqui
                       <i className="fal fa-long-arrow-right ms-2"></i>
                     </span>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="img">
-                <Link
+                <a
                   href="https://www.youtube.com/watch?v=ydlGbK4yQzc"
                   className="play_btn"
                   onClick={openVideo}
                 >
                   <img src="/assets/img/about2.png" alt="img" />
-                </Link>
+                </a>
               </div>
               {typeof window !== "undefined" && (
                 <ModalVideo
