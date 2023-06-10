@@ -20,7 +20,7 @@ const Header = () => {
             <div className="col-lg-6">
               <div className="info">
                 <h1 className="wow fadeInUp">
-                  Sábado 10 de junio <br />
+                  Sábado 8 de julio <br />
                   <small>Polideportivo - Villa Del Prado</small>
                 </h1>
                 <div className="form wow fadeInUp">
