@@ -19,10 +19,10 @@ const ChooseUs2 = () => {
           <div className="col-lg-6">
             <div className="info">
               <div className="section-head style-4 mb-20">
-                <h5>Ampliamos la oportunidad para muchos mas jovenes</h5>
+                <span>Nueva Fecha</span>
                 <div className="top-title"></div>
-                <h2>
-                  ¡Nueva <span>Fecha!</span>
+                <h2 style={{ fontSize: "30px" }}>
+                  Ampliamos la oportunidad para muchos mas <span>jóvenes</span>
                 </h2>
               </div>
               <ul>
@@ -139,15 +139,6 @@ const ChooseUs2 = () => {
           onClose={() => setOpen(false)}
         />
       )}
-      <div className="text-center mt-50">
-        <p>
-          REQUISITO: Estar presente en el programa de la mañana (10-12Hs) el
-          sorteo se hace exclusivamente para los presentes en el AVIVATE. <br />
-          AVIVATE Padres / Madres / Familiares : Sabado 8 de JULIO 10 a 12hs.{" "}
-          <br />
-          SORTEO de 20 Becas en Programación y Desarrollo en Full Stack. <br />
-        </p>
-      </div>
     </section>
   );
 };
