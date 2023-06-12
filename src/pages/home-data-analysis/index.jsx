@@ -14,11 +14,32 @@ import About2 from "@components/App/About";
 import Footer from "@components/IT/Footer";
 import Form from "@components/Contact/Form";
 import AboutCordoba from "@components/DataAnalysis/About3";
-import RobotDialog from "@components/DataAnalysis/Robot";
+import ChooseUs2 from "@components/ITCreative/ChoseUs2";
+import Swal from "sweetalert2";
 
 const HomeDataAnalysis = () => {
   useEffect(() => {
     document.body.classList.add("home-style-8");
+
+    let firstScroll = true;
+
+    window.addEventListener("scroll", function () {
+      if (firstScroll) {
+        Swal.fire({
+          showCloseButton: true,
+          buttonsStyling: true,
+
+          showConfirmButton: false,
+          imageUrl: "/assets/img/alert.png",
+          imageWidth: "auto",
+          imageHeight: "auto",
+          imageAlt: "Custom image",
+          background: "#23252E",
+          color: "#fff",
+        });
+        firstScroll = false;
+      }
+    });
     return () => document.body.classList.remove("home-style-8");
   }, []);
 
@@ -31,6 +52,7 @@ const HomeDataAnalysis = () => {
       <MainLayout>
         <Header />
         <main>
+          <ChooseUs2 />
           <Projects />
           <AboutCordoba />
           <About />
@@ -38,7 +60,6 @@ const HomeDataAnalysis = () => {
           <Testimonials />
           <Content list={aboutData.list} />
           <About2 noWave noIntegration />
-          {/* <RobotDialog /> */}
           <Form style="5" />
         </main>
         <Footer />
