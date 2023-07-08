@@ -1,10 +1,9 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-scroll";
-import { Link2 } from "next/link";
-import TopNav from "./TopNav";
+
 import navbarScrollEffect from "@common/navbarScrollEffect";
 
-const Navbar = () => {
+const Navbar2 = () => {
   const navbarRef = useRef(null);
 
   useEffect(() => {
@@ -39,7 +38,7 @@ const Navbar = () => {
         ref={navbarRef}
       >
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src="/assets/img/logo_home8.png" alt="" />
           </a>
           <button
@@ -68,63 +67,50 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="ejes"
-                  smooth="true"
-                  duration={100}
-                >
-                  Ejes
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
                   to="nosotros"
                   smooth="true"
                   duration={100}
                 >
-                  Nosotros
+                  De Qué Trata
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="problematica"
+                  to="modulo1"
                   smooth="true"
                   duration={100}
                 >
-                  Problematica
+                  Módulo 1
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="modulo2"
+                  smooth="true"
+                  duration={100}
+                >
+                  Módulo 2
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="modulo3"
+                  smooth="true"
+                  duration={100}
+                >
+                  Módulo 3
                 </Link>
               </li>
 
               <li className="nav-item">
-                <a href={`/Fullstack`} className="nav-link">
-                  Curso FullStack
+                <a href={`/`} className="nav-link">
+                  Volver
                 </a>
               </li>
-
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="contacto"
-                  smooth="true"
-                  duration={100}
-                >
-                  Contacto
-                </Link>
-              </li>
             </ul>
-            <div className="nav-side">
-              <a
-                className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
-                href="/assets/files/pdfCordoba2023.pdf"
-                download="Avivate2023.pdf"
-              >
-                <span style={{ color: "#000" }}>
-                  {" "}
-                  Descargar PDF <i className="fal fa-long-arrow-right ms-2"></i>{" "}
-                </span>
-              </a>
-            </div>
           </div>
         </div>
       </nav>
@@ -132,4 +118,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;

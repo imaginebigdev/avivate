@@ -2664,6 +2664,9 @@ small.text {
   .side_menu.style-7 .pages_links {
     height: calc(100vh - 273px);
   }
+  .digitalwork{
+    display: none;
+  }
 }
 
 /* ===============================================================
@@ -3407,6 +3410,11 @@ small.text {
 			[ * header Section ] 
 ================================================================*/
 /* --------------- header styles --------------- */
+
+.digitalwork{
+  
+}
+
 header.style-1 {
   position: relative;
 }
@@ -6087,6 +6095,9 @@ header.style-15 .countdown-content .logos img {
   .services-slider8 .swiper-slide {
     width: 370px !important;
   }
+  .digitalwork{
+    display: none;
+  }
 }
 
 .services.style-9 .services-content {
@@ -6980,6 +6991,10 @@ header.style-15 .countdown-content .logos img {
   }
   .projects-slider7 .swiper-slide {
     width: 475px !important;
+  }
+
+  .digitalwork{
+    display: none;
   }
 }
 
@@ -11165,12 +11180,17 @@ header.style-15 .countdown-content .logos img {
 }
 
 @media screen and (min-width: 991px) {
+
+  .digitalwork{
+    display: none;
+  }
   .features-slider7 {
     position: relative;
   }
   .features-slider7 .swiper-slide {
     width: 470px !important;
   }
+
 }
 
 .features-card.style-7 {
@@ -17343,6 +17363,9 @@ footer.style-15 .foot p {
 }
 
 @media screen and (max-width: 991px) {
+  .digitalwork{
+    display: none;
+  }
   .section-padding {
     padding: 70px 0;
   }
