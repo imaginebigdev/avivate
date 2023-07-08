@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-scroll";
-import { Link2 } from "next/link";
+import Link2 from "next/link";
 import TopNav from "./TopNav";
 import navbarScrollEffect from "@common/navbarScrollEffect";
 
@@ -97,9 +97,9 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item">
-                <a href={`/Fullstack`} className="nav-link">
-                  Curso FullStack
-                </a>
+                <Link2 href={`/Fullstack`} /* className="nav-link" */>
+                  <span className="nav-link"> Curso FullStack</span>
+                </Link2>
               </li>
 
               <li className="nav-item">
