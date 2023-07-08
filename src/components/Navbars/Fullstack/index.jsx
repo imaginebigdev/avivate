@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-scroll";
+import Link2 from "next/link";
 
 import navbarScrollEffect from "@common/navbarScrollEffect";
 
@@ -38,9 +39,9 @@ const Navbar2 = () => {
         ref={navbarRef}
       >
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <Link2 className="navbar-brand" href="/">
             <img src="/assets/img/logo_home8.png" alt="" />
-          </a>
+          </Link2>
           <button
             className="navbar-toggler"
             type="button"

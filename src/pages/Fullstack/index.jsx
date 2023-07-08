@@ -16,8 +16,6 @@ const FullStack = () => {
   useEffect(() => {
     document.body.classList.add("home-style-8");
 
-    let firstScroll = true;
-
     /*   window.addEventListener("scroll", function () {
       if (firstScroll) {
         Swal.fire({
