@@ -2,7 +2,7 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 import features2 from "@data/DataAnalysis/features2";
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 const ChooseUs2 = () => {
   const [isOpen, setOpen] = useState(false);
@@ -34,16 +34,15 @@ const ChooseUs2 = () => {
               </h5>
             </div>
             <div className="nav-side pt-20 text-center pb-40">
-              <a
-                className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
-                href="/Fullstack"
-              >
-                <span style={{ color: "#000" }}>
-                  {" "}
-                  Beca Digital Work{" "}
-                  <i className="fal fa-long-arrow-right ms-2"></i>{" "}
-                </span>
-              </a>
+              <Link href="/Fullstack">
+                <a className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0">
+                  <span style={{ color: "#000" }}>
+                    {" "}
+                    Beca Digital Work{" "}
+                    <i className="fal fa-long-arrow-right ms-2"></i>{" "}
+                  </span>
+                </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6">

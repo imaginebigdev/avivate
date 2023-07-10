@@ -48,8 +48,8 @@ const HomeDataAnalysis = () => {
       <MainLayout>
         <Navbar />
         {/* <Header />  */}
-        <IntroWithSlider />
         <main>
+          <IntroWithSlider />
           <ChooseUs2 />
           <Projects />
           <AboutCordoba />

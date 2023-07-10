@@ -5,83 +5,83 @@
         "id": 1,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/1.jpg",
-        "mobileimage":"/assets/img/slid/mobile1.jpg"
+        "image": "/assets/img/1.jpg",
+        "mobileimage":"/assets/img/mobile1.jpg"
     },
     {
         "id":2,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/2.jpg",
-        "mobileimage":"/assets/img/slid/mobile2.jpg"
+        "image": "/assets/img/2.jpg",
+        "mobileimage":"/assets/img/mobile2.jpg"
     },
     {
         "id": 3,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/3.jpg",
-        "mobileimage":"/assets/img/slid/mobile3.jpg"
+        "image": "/assets/img/3.jpg",
+        "mobileimage":"/assets/img/mobile3.jpg"
     },
     {
         "id": 4,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/4.jpg",
-        "mobileimage":"/assets/img/slid/mobile4.jpg"
+        "image": "/assets/img/4.jpg",
+        "mobileimage":"/assets/img/mobile4.jpg"
     },
     {
         "id": 5,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/5.jpg",
-        "mobileimage":"/assets/img/slid/mobile5.jpg"
+        "image": "/assets/img/5.jpg",
+        "mobileimage":"/assets/img/mobile5.jpg"
     },
     {
         "id": 6,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/6.jpg", "mobileimage":"/assets/img/slid/mobile6.jpg"
+        "image": "/assets/img/6.jpg", "mobileimage":"/assets/img/mobile6.jpg"
     },
     {
         "id": 7,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/7.jpg",
-        "mobileimage":"/assets/img/slid/mobile7.jpg"
+        "image": "/assets/img/7.jpg",
+        "mobileimage":"/assets/img/mobile7.jpg"
     },
     {
         "id": 8,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/8.jpg",
-        "mobileimage":"/assets/img/slid/mobile8.jpg"
+        "image": "/assets/img/8.jpg",
+        "mobileimage":"/assets/img/mobile8.jpg"
     },
     {
         "id": 9,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/9.jpg",
-        "mobileimage":"/assets/img/slid/mobile9.jpg"
+        "image": "/assets/img/9.jpg",
+        "mobileimage":"/assets/img/mobile9.jpg"
     },
     {
         "id": 10,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/10.jpg",
-        "mobileimage":"/assets/img/slid/mobile10.jpg"
+        "image": "/assets/img/10.jpg",
+        "mobileimage":"/assets/img/mobile10.jpg"
     },
     {
         "id": 11,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/11.jpg",
-        "mobileimage":"/assets/img/slid/mobile11.jpg"
+        "image": "/assets/img/11.jpg",
+        "mobileimage":"/assets/img/mobile11.jpg"
     },
     {
         "id": 12,
         "title": "",
         "content": "",
-        "image": "/assets/img/slid/12.jpg",
-        "mobileimage":"/assets/img/slid/mobile12.jpg"
+        "image": "/assets/img/12.jpg",
+        "mobileimage":"/assets/img/mobile12.jpg"
     }
 ]
