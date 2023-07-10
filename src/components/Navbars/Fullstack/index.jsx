@@ -40,7 +40,7 @@ const Navbar2 = () => {
       >
         <div className="container">
           <Link2 className="navbar-brand" href="/">
-            <img src="/assets/img/logo_home8.png" alt="" />
+            <img className="logo" src="/assets/img/logo_home8.png" alt="" />
           </Link2>
           <button
             className="navbar-toggler"

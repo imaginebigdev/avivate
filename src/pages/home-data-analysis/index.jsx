@@ -1,9 +1,9 @@
-import { useEffect } from "react";
+import { React, useEffect, useRef } from "react";
 import Head from "next/head";
 //= Layout
 import MainLayout from "@layouts/Main";
 //= Components
-import Header from "@components/DataAnalysis/Header";
+
 import About from "@components/DataAnalysis/About";
 import Projects from "@components/DataAnalysis/Projects";
 import Testimonials from "@components/ITCreative/Testimonials";
@@ -16,41 +16,39 @@ import Form from "@components/Contact/Form";
 import AboutCordoba from "@components/DataAnalysis/About3";
 import ChooseUs2 from "@components/ITCreative/ChoseUs2";
 import Swal from "sweetalert2";
+import Navbar from "@components/Navbars/DataAnalysis";
+import IntroWithSlider from "@components/DataAnalysis/IntroWithSlider";
 
 const HomeDataAnalysis = () => {
+  const fixedSlider = useRef(null);
+  /*   const MainLayout = useRef(null); */
+  const navbarRef = useRef(null);
+
   useEffect(() => {
     document.body.classList.add("home-style-8");
 
-    let firstScroll = true;
-
-    window.addEventListener("scroll", function () {
-      if (firstScroll) {
-        Swal.fire({
-          showCloseButton: true,
-          buttonsStyling: true,
-
-          showConfirmButton: false,
-          imageUrl: "/assets/img/alert.png",
-          imageWidth: "auto",
-          imageHeight: "auto",
-          imageAlt: "Custom image",
-          background: "#23252E",
-          color: "#fff",
-        });
-        firstScroll = false;
+    setInterval(() => {
+      if (fixedSlider.current) {
+        var slidHeight = fixedSlider.current.offsetHeight;
       }
-    });
+      if (MainLayout.current) {
+        MainLayout.current.style.marginTop = slidHeight + "px";
+      }
+    }, 1000);
     return () => document.body.classList.remove("home-style-8");
-  }, []);
+  }, [fixedSlider, MainLayout, navbarRef]);
 
   return (
     <>
       <Head>
         <title>Avivate</title>
+        {/*  <link rel="stylesheet" defer href="/css/arch-skin-light.css" /> */}
       </Head>
 
       <MainLayout>
-        <Header />
+        <Navbar />
+        {/* <Header />  */}
+        <IntroWithSlider />
         <main>
           <ChooseUs2 />
           <Projects />
