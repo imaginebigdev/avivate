@@ -19,7 +19,7 @@ const About2 = () => {
               <p className="color-666 wow fadeInUp">
                 {" "}
                 Este curso de 6 meses te enseñará los fundamentos del desarrollo
-                web full-stackutilizando el stack MERN (MongoDB, Express.js,
+                web full-stack utilizando el stack MERN (MongoDB, Express.js,
                 React.js y Node.js). A lo largo del curso, adquirirás los
                 conocimientos necesarios para desarrollar aplicaciones web
                 completas, tanto en el lado del frontend como en el backend. El
