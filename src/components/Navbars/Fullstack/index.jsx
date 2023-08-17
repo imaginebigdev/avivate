@@ -105,7 +105,11 @@ const Navbar2 = () => {
                   Módulo 3
                 </Link>
               </li>
-
+              <li className="nav-item">
+                <a href={`/Alumnos`} className="nav-link">
+                  Clases
+                </a>
+              </li>
               <li className="nav-item">
                 <a href={`/`} className="nav-link">
                   Volver

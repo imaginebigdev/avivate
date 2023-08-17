@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "Clase 01",
+      "content": "Introduccion a Javascript",
+      "date": "14/08",
+      "image": "/assets/img/blog/7.png"
+    },
+    {
+        "id": 2,
+        "title": "Clase 01",
+        "content": "Introduccion a Javascript",
+        "date": "14/08",
+        "image": "/assets/img/blog/7.png"
+      },
+      {
+        "id": 3,
+        "title": "Clase 01",
+        "content": "Introduccion a Javascript",
+        "date": "14/08",
+        "image": "/assets/img/blog/7.png"
+      },
+      {
+        "id": 4,
+        "title": "Clase 01",
+        "content": "Introduccion a Javascript",
+        "date": "14/08",
+        "image": "/assets/img/blog/7.png"
+      }
+   
+  ]
+  
