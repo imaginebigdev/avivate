@@ -1,26 +1,12 @@
-import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.css";
+import React from "react";
 
 const Blogs = ({ blogs, isWide, style, rtl }) => {
-  const [isOpen, setOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
-  const blogsPerPage = 3;
-
-  const indexOfLastBlog = currentPage * blogsPerPage;
-  const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
-  const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
-
-  const paginate = (pageNumber) => {
-    setCurrentPage(pageNumber);
-  };
-
   return (
     <div className={isWide ? "col-lg-10" : "col-lg-8"}>
-      {currentBlogs.map((blog, index) => (
+      {blogs.map((blog, index) => (
         <div
           className={`card border-0 bg-transparent rounded-0 ${
-            index !== currentBlogs.length - 1
+            index !== blogs.length - 1
               ? "border-bottom brd-gray"
               : "mb-lg-0 pb-lg-0"
           } pb-30 mb-30`}
@@ -62,24 +48,14 @@ const Blogs = ({ blogs, isWide, style, rtl }) => {
                   </div>
                   <div className="vid-area">
                     <div className="vid-icon">
-                      {typeof window !== "undefined" && (
-                        <ModalVideo
-                          autoplay
-                          channel="vimeo"
-                          isOpen={isOpen}
-                          videoId={`${blog.videoId}`}
-                          onClose={() => setOpen(false)}
-                        />
-                      )}
-                      <button
-                        className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setOpen(true);
-                        }}
+                      <a
+                        className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 curor-pointer"
+                        href={blog.video}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Ver Clase
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -88,55 +64,8 @@ const Blogs = ({ blogs, isWide, style, rtl }) => {
           </div>
         </div>
       ))}
-
-      <div
-        className={`pagination style-5 color-${style} justify-content-center mt-60`}
-      >
-        {Array.from({ length: Math.ceil(blogs.length / blogsPerPage) }).map(
-          (_, index) => (
-            <a
-              style={{ cursor: "pointer" }}
-              key={index}
-              className={`butn ${currentPage === index + 1 ? "active" : ""}`}
-              onClick={() => paginate(index + 1)}
-            >
-              {index + 1}
-            </a>
-          )
-        )}
-      </div>
     </div>
   );
 };
 
 export default Blogs;
-
-{
-  /* <div
-        className={`pagination style-5 color-${style} justify-content-center mt-60`}
-      >
-        <a href="#" className="active">
-          <span>1</span>
-        </a>
-        <a href="#">
-          <span>2</span>
-        </a>
-        <a href="#">
-          <span>3</span>
-        </a>
-        <a href="#">
-          <span>4</span>
-        </a>
-        <a href="#">
-          <span>...</span>
-        </a>
-        <a href="#">
-          <span>20</span>
-        </a>
-        <a href="#">
-          <span className="text">
-            {rtl ? "التالي" : "next"} <i className="fas fa-chevron-right"></i>{" "}
-          </span>
-        </a>
-      </div> */
-}

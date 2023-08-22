@@ -1,6 +1,7 @@
 {
   "blogs": [
     {
+      "id": "1",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 01",
       "time": "14/08",
@@ -8,38 +9,35 @@
       "desc": "Variables y funciones de javascript",
       "userImgLetter": "a",
       "username": " Sebastian Cerruti",
-      "videoId": "855203732"
-     
+      "video":"https://vimeo.com/854770999"
     },
-    {
+    {"id": "2",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 02",
       "time": "15/08",
       "title": "Instalación / Configuración de Herramientas",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
-      "comments": "",
-      "videoId": "855184366"
+      "video":"https://vimeo.com/855184366"
     },
-    {
+    {"id": "3",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 03 (parte 1)",
       "time": "16/08",
       "title": "Bucles `for` y  `for in` + Condicionales",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
-      "comments": "",
-      "videoId": "855194501"
+      "video":"https://vimeo.com/854770999"
     },
     {
+      "id": "4",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 03 (parte 2)",
       "time": "16/08",
       "title": "Hoisting y Closures",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
-      "comments": "",
-      "videoId": "855203732"
+      "video":"https://vimeo.com/855203732"
     }
 
   ]
