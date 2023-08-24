@@ -3,7 +3,7 @@
     {"id": "1",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 0",
-      "time": "15/08",
+      "time": "14/08",
       "title": "Instalación / Configuración de Herramientas",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
@@ -13,7 +13,7 @@
       "id": "1",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 01",
-      "time": "14/08",
+      "time": "15/08",
       "title": "Introducción a Javascript",
       "desc": "Variables y tipo de datos de javascript",
       "userImgLetter": "a",
@@ -31,5 +31,5 @@
     }
   ]
   
-  
+
 }
