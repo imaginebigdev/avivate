@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="React Nextjs Template Iteck Multi-Purpose themeforest"
+            content="Pagina oficial de Avivate by Imagine Big"
           />
           <meta
             name="description"
-            content="Iteck - Multi-Purpose React.js Next.js Template"
+            content="Imagine Big - Soluciones digitales"
           />
           <meta name="author" content="" />
           <link
