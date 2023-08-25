@@ -1,13 +1,14 @@
 {
   "blogs": [
-    {"id": "1",
+    {
+      "id": "1",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 0",
       "time": "14/08",
       "title": "Instalación / Configuración de Herramientas",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
-      "video":"https://vimeo.com/855184366"
+      "video": "https://vimeo.com/855184366"
     },
     {
       "id": "1",
@@ -18,18 +19,28 @@
       "desc": "Variables y tipo de datos de javascript",
       "userImgLetter": "a",
       "username": " Sebastian Cerruti",
-      "video":"https://vimeo.com/857336609"
+      "video": "https://vimeo.com/857336609"
     },
-    {"id": "3",
+    {
+      "id": "3",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 02",
       "time": "16/08",
-      "title": "Javascript Basico",
+      "title": "Javascript Basico 1",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
-      "video":"https://vimeo.com/857339926"
+      "video": "https://vimeo.com/857339926"
+    },
+
+    {
+      "id": "4",
+      "cover": "/assets/img/blog/modulo.jpg",
+      "type": "CLASE 03",
+      "time": "17/08",
+      "title": "Javascript Basico 2",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerruti",
+      "video": "https://vimeo.com/857729239"
     }
   ]
-  
-
 }
