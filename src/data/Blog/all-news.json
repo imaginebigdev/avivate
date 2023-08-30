@@ -31,7 +31,6 @@
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/857339926"
     },
-
     {
       "id": "4",
       "cover": "/assets/img/blog/modulo.jpg",
@@ -41,6 +40,16 @@
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/857729239"
+    },
+    {
+      "id": "5",
+      "cover": "/assets/img/blog/modulo.jpg",
+      "type": "CLASE 04",
+      "time": "18/08",
+      "title": "Javascript Basico 3",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerruti",
+      "video": "https://vimeo.com/859532258"
     }
   ]
 }
