@@ -36,7 +36,7 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 03",
       "time": "17/08",
-      "title": "Javascript Basico 2",
+      "title": "Javascript intermedio 1",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/857729239"
@@ -46,7 +46,7 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 04",
       "time": "18/08",
-      "title": "Javascript Basico 3",
+      "title": "Javascript intermedio 2",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/859532258"
@@ -56,10 +56,20 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 05",
       "time": "21/08",
-      "title": "Javascript Basico 4",
+      "title": "Javascript intermedio 3",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/859601135"
+    },
+    {
+      "id": "6",
+      "cover": "/assets/img/blog/modulo.jpg",
+      "type": "CLASE 06",
+      "time": "21/08",
+      "title": "Javascript intermedio 4",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerruti",
+      "video": "https://vimeo.com/860003610"
     }
   ]
 }
