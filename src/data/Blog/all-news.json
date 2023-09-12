@@ -11,7 +11,7 @@
       "video": "https://vimeo.com/855184366"
     },
     {
-      "id": "1",
+      "id": "2",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 01",
       "time": "15/08",
@@ -62,7 +62,7 @@
       "video": "https://vimeo.com/859601135"
     },
     {
-      "id": "6",
+      "id": "7",
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 06",
       "time": "21/08",
@@ -70,6 +70,16 @@
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/860003610"
+    },
+    {
+      "id": "8",
+      "cover": "/assets/img/blog/modulo.jpg",
+      "type": "CLASE 07",
+      "time": "11/09",
+      "title": "Javascript Avanzado 1",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerruti",
+      "video": "https://vimeo.com/863393597"
     }
   ]
 }
