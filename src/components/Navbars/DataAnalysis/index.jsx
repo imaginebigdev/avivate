@@ -68,21 +68,21 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="ejes"
-                  smooth="true"
-                  duration={100}
-                >
-                  Ejes
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
                   to="nosotros"
                   smooth="true"
                   duration={100}
                 >
                   Nosotros
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="ejes"
+                  smooth="true"
+                  duration={100}
+                >
+                  Ejes
                 </Link>
               </li>
               <li className="nav-item">
