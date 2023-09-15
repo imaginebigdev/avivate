@@ -51,8 +51,8 @@ const HomeDataAnalysis = () => {
         <main>
           <IntroWithSlider />
           <ChooseUs2 />
-          <Projects />
           <AboutCordoba />
+          <Projects />
           <About />
           <ChooseUs />
           <Testimonials />

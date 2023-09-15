@@ -28,12 +28,12 @@ const AboutCordoba = () => {
                 </h2>
                 <a
                   className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
-                  href="/assets/files/pdfCordoba2023.pdf"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform"
                   download="Avivate2023.pdf"
                 >
                   <span style={{ color: "#000" }}>
                     {" "}
-                    Descargar PDF{" "}
+                    Inscripción AVIVATE Catamarca{" "}
                     <i className="fal fa-long-arrow-right ms-2"></i>{" "}
                   </span>
                 </a>
@@ -42,12 +42,12 @@ const AboutCordoba = () => {
           </div>
           <div className="col-lg-6">
             <div className="img mb-4 mb-lg-0 wow fadeIn pb-30">
-              <img src="/assets/img/about/cordoba.png" alt="" />
+              <img src="/assets/img/about/arg5.png" alt="" />
               <div style={{ textAlign: "center" }}>
                 <h1>
                   <span style={{ color: "#e73f7fff" }}>350.000</span>
                 </h1>
-                <h3>Jóvenes de la Provincia de Córdoba</h3>
+                <h3>Jóvenes Argentinos</h3>
                 <h4>
                   Entre 15 y 18 años{" "}
                   <span style={{ color: "#e73f7fff", letterSpacing: "1px" }}>
