@@ -14,26 +14,26 @@ const AboutCordoba = () => {
                 {/*   <h6 className="wow fadeInUp"> about our service </h6> */}
                 <h1 className="wow fadeInUp" style={{ color: "#000" }}>
                   {" "}
-                  26 <br /> EVENTOS
+                  + de 50 <br /> EVENTOS
                 </h1>
                 <img src="/assets/img/logo_ll.png" alt="" />
                 <div className="pt-20">
-                  <h4>26 ciudades</h4>
-                  <h4>Cabeceras</h4>
-                  <h4>Departamentales</h4>
+                  <h4>en ciudades, </h4>
+                  <h4>provincias y países de</h4>
+                  <h4>América</h4>
                 </div>
                 <h2 className="pt-20" style={{ color: "#3a9fe3ff" }}>
-                  Transformación digital generación{" "}
-                  <span style={{ color: "#e73f7fff" }}>Z</span>
+                  Transformación y Alfabetización Digital{" "}
+                  {/* <span style={{ color: "#e73f7fff" }}>Z</span> */}
                 </h2>
                 <a
                   className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform"
-                  download="Avivate2023.pdf"
+                  download="AVIVATE PROYECTO 2023.pdf"
+                  href="https://drive.google.com/file/d/1z66HJbmbULp-bBNympk3yKDvzeEvlp99/view"
                 >
                   <span style={{ color: "#000" }}>
                     {" "}
-                    Inscripción AVIVATE Catamarca{" "}
+                    Descargar PDF{" "}
                     <i className="fal fa-long-arrow-right ms-2"></i>{" "}
                   </span>
                 </a>
@@ -42,17 +42,17 @@ const AboutCordoba = () => {
           </div>
           <div className="col-lg-6">
             <div className="img mb-4 mb-lg-0 wow fadeIn pb-30">
-              <img src="/assets/img/about/arg5.png" alt="" />
+              <img src="/assets/img/about/america.png" alt="" />
               <div style={{ textAlign: "center" }}>
                 <h1>
                   <span style={{ color: "#e73f7fff" }}>350.000</span>
                 </h1>
-                <h3>Jóvenes Argentinos</h3>
+                <h3>Jovenes y Adultos</h3>
                 <h4>
-                  Entre 15 y 18 años{" "}
-                  <span style={{ color: "#e73f7fff", letterSpacing: "1px" }}>
+                  habla hispana en América Norte, Central y Sur.{" "}
+                  {/* <span style={{ color: "#e73f7fff", letterSpacing: "1px" }}>
                     CENTENNIALS
-                  </span>
+                  </span> */}
                 </h4>
               </div>
             </div>

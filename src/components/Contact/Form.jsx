@@ -81,11 +81,11 @@ const Form = ({ style = "4", rtl }) => {
       {style === "5" && (
         <>
           <div className="section-head text-center mb-100 style-5">
-            <h2 className="mb-20">{rtl ? "يسعدنا" : "Se un Facilitador!"} </h2>
+            <h2 className="mb-20">{rtl ? "يسعدنا" : "Contáctanos!"} </h2>
             <p>
               {rtl
                 ? "سنتواصل معك مرة أخرى بعد استلام طلبك خلال 24 ساعة"
-                : "Dejanos tus datos si queres formar parte de los facilitadores de Argentina! (Facilitador es quien trabaja y contribuye para hacer posible el Avivate en una ciudad)"}
+                : "Dejanos tus datos para participar, ser parte o acceder a algunos de nuestros cursos o eventos."}
             </p>
           </div>
         </>
