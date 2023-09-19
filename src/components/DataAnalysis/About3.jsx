@@ -29,7 +29,7 @@ const AboutCordoba = () => {
                 <a
                   className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
                   download
-                  href="/assets/files/DOSSIER - AVIVATE 2023 .pdf"
+                  href="/assets/files/DOSSIER-AVIVATE 2023.pdf"
                 >
                   <span style={{ color: "#000" }}>
                     {" "}
