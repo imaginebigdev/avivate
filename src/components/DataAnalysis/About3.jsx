@@ -28,8 +28,8 @@ const AboutCordoba = () => {
                 </h2>
                 <a
                   className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
-                  download="AVIVATE PROYECTO 2023.pdf"
-                  href="https://drive.google.com/file/d/1z66HJbmbULp-bBNympk3yKDvzeEvlp99/view"
+                  download
+                  href="/assets/files/DOSSIER - AVIVATE 2023 .pdf"
                 >
                   <span style={{ color: "#000" }}>
                     {" "}
@@ -45,7 +45,7 @@ const AboutCordoba = () => {
               <img src="/assets/img/about/america.png" alt="" />
               <div style={{ textAlign: "center" }}>
                 <h1>
-                  <span style={{ color: "#e73f7fff" }}>350.000</span>
+                  <span style={{ color: "#e73f7fff" }}>+ de un millón</span>
                 </h1>
                 <h3>Jovenes y Adultos</h3>
                 <h4>
