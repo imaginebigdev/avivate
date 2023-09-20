@@ -1,0 +1,47 @@
+[
+  {
+    "image": "/assets/img/red.png",
+    "tag": "Analysis",
+    "title": "TECNOVIDA",
+    "text": "MARCA DIGITAL, VISIÓN, PROYECTO, TEST PERSONAL, CULTURA DIGITAL, PRÁCTICAS POTENCIADORAS. INTRODUCCIÓN A LA ALFABETIZACIÓN DIGITAL",
+    "client": {
+      "name": "Miranda H. Halim",
+      "budget": "$12,000",
+      "estimate": "3 Months"
+    }
+  },
+  {
+    "image": "/assets/img/mano.png",
+    "title": "OPTIMIZACIÓN",
+    "text": "Chat GPT, Inteligencia Artificial, billeteras digitales, Google aplicaciones, Editores de Imagenes, Editores de Video, Redes Sociales, Optimización perfil digital.",
+    "client": {
+      "name": "Miranda H. Halim",
+      "budget": "$12,000",
+      "estimate": "3 Months"
+    }
+  },
+  {
+    "image": "/assets/img/cq.png",
+    "tag": "Analysis",
+    "logo": "/assets/img/logos/22.png",
+    "title": "MARATÓN",
+    "text": "taller de buenas prácticas. reconversión tecnológica, configuración de dispositivos. tecnicas persuasivas, comunidad digital, ciudadanía responsable en internet",
+    "client": {
+      "name": "Miranda H. Halim",
+      "budget": "$12,000",
+      "estimate": "3 Months"
+    }
+  },
+  {
+    "image": "/assets/img/ex.png",
+    "tag": "Analysis",
+    "logo": "/assets/img/logos/22.png",
+    "title": "LANZAMIENTO",
+    "text": "técnicas, y tecnología para expandir un mensaje o contenido en Internet. Viralización, Ingenieria Social, lanzamiento de producto.",
+    "client": {
+      "name": "Miranda H. Halim",
+      "budget": "$12,000",
+      "estimate": "3 Months"
+    }
+  }
+]

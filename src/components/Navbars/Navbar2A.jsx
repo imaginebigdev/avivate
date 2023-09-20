@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 import Link2 from "next/link";
-import TopNav from "./TopNav";
+
 import navbarScrollEffect from "@common/navbarScrollEffect";
 
-const Navbar = () => {
+const Navbar2 = () => {
   const navbarRef = useRef(null);
 
   useEffect(() => {
@@ -39,9 +39,9 @@ const Navbar = () => {
         ref={navbarRef}
       >
         <div className="container">
-          <a className="navbar-brand" href="#">
-            <img src="/assets/img/logo_home8.png" alt="" />
-          </a>
+          <Link2 className="navbar-brand" href="/">
+            <img className="logo" src="/assets/img/logo_home8.png" alt="" />
+          </Link2>
           <button
             className="navbar-toggler"
             type="button"
@@ -72,64 +72,55 @@ const Navbar = () => {
                   smooth="true"
                   duration={100}
                 >
-                  Nosotros
+                  De Qué Trata
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="ejes"
+                  to="modulo1"
                   smooth="true"
                   duration={100}
                 >
-                  Ejes
+                  Etapa 1
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="problematica"
+                  to="modulo2"
                   smooth="true"
                   duration={100}
                 >
-                  Problematica
+                  Etapa 2
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link2 href={`/Avivate+`} >
-                  <span className="nav-link"> Avivate +</span>
-                </Link2>
-              </li> */}
-              <li className="nav-item">
-                <Link2 href={`/Fullstack`} /* className="nav-link" */>
-                  <span className="nav-link"> Curso FullStack</span>
-                </Link2>
-              </li>
-
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="contacto"
+                  to="modulo3"
                   smooth="true"
                   duration={100}
                 >
-                  Contacto
+                  Etapa 3
                 </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="modulo3"
+                  smooth="true"
+                  duration={100}
+                >
+                  Etapa 4
+                </Link>
+              </li>
+              <li className="nav-item">
+                <a href={`/`} className="nav-link">
+                  Volver
+                </a>
               </li>
             </ul>
-            <div className="nav-side">
-              <a
-                className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform"
-                download="Avivate2023.pdf"
-              >
-                <span style={{ color: "#000" }}>
-                  {" "}
-                  Inscripción AVIVATE Catamarca{" "}
-                  <i className="fal fa-long-arrow-right ms-2"></i>{" "}
-                </span>
-              </a>
-            </div>
           </div>
         </div>
       </nav>
@@ -137,4 +128,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
