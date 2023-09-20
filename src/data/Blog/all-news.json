@@ -96,10 +96,20 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 09",
       "time": "18/09",
-      "title": "Javascript Avanzado 3",
+      "title": "Javascript Avanzado 3A",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/865778552"
+    },
+    {
+      "id": "11",
+      "cover": "/assets/img/blog/modulo.jpg",
+      "type": "CLASE 11",
+      "time": "19/09",
+      "title": "Javascript Avanzado 3B",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerruti",
+      "video": "https://vimeo.com/866167288"
     }
   ]
 }
