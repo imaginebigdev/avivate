@@ -76,7 +76,7 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 07",
       "time": "11/09",
-      "title": "Javascript Avanzado 1",
+      "title": "Javascript Avanzado Recursion",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/863393597"
@@ -86,7 +86,7 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 08",
       "time": "12/09",
-      "title": "Javascript Avanzado 2",
+      "title": "Javascript Avanzado LinkedList",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/863808373"
@@ -96,7 +96,7 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 09",
       "time": "18/09",
-      "title": "Javascript Avanzado 3A",
+      "title": "Javascript Avanzado Arboles binarios 1",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/865778552"
@@ -106,10 +106,20 @@
       "cover": "/assets/img/blog/modulo.jpg",
       "type": "CLASE 11",
       "time": "19/09",
-      "title": "Javascript Avanzado 3B",
+      "title": "Javascript Avanzado Arboles binarios 2",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/866167288"
+    },
+    {
+      "id": "12",
+      "cover": "/assets/img/blog/modulo.jpg",
+      "type": "CLASE 12",
+      "time": "20/09",
+      "title": "Javascript Avanzado Algoritmos",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerruti",
+      "video": "https://vimeo.com/866593003"
     }
   ]
 }
