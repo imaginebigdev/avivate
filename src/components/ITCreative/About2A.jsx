@@ -18,19 +18,19 @@ const About2A = () => {
               </div>
               <p className="color-666 wow fadeInUp">
                 {" "}
-                AVIVATE MÁS Es una experiencia vivencial, para PÚBLICO EN
-                GENERAL, combinando, actualización tecnológica, arte,
-                comunicación, creatividad, estrategia y persuasión digital con
-                alto grado de compromiso en toda la matriz tecnológica que nos
-                toca vivir como individuos en la civilización digital de
-                Internet. Es una fresca zambullida en el mundo de la
-                actualización tecnológica que te ayudarán a DESPERTAR con
-                técnicas pedagógicas guiadas por un entrenador y consultor
-                tecnológico de años de experiencia que te llevarán a eliminar
-                todos los obstáculos en el uso de las nuevas tecnologías de la
-                información. Al finalizar el entrenamiento, vas a poder crear un
-                nuevo horizonte de posibilidades que hoy te brinda internet en
-                tu conectividad al mundo.{" "}
+                AVIVATE MÁS una experiencia vivencial, para PÚBLICO GENERAL. Es
+                un programa De Educación Convencional combinando, +
+                actualización tecnológica, arte, comunicación, creatividad,
+                estrategia persuasión digital con alto grado de compromiso en
+                toda la matriz tecnológica que nos toca vivir como individuos de
+                la civilización digital en Internet. Es una Fresca zambullida en
+                el mundo de la actualización tecnológica que te ayudará a
+                DESPERTAR con técnicas pedagógicas guiadas por un entrenador y
+                consultor tecnológico de años de experiencia que te llevarán a
+                eliminar todos los obstáculos en el uso de las nuevas
+                tecnologías de la información. Al finalizar el entrenamiento,
+                vas a poder crear un nuevo horizonte de posibilidades que hoy te
+                brinda internet en tu conectividad al mundo.{" "}
               </p>
             </div>
           </div>

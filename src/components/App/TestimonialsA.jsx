@@ -20,7 +20,10 @@ const TestimonialsA = () => {
       <div className="container" style={{ backgroundColor: "#fff" }}>
         <div className="row">
           <div className="col-12">
-            <div className="section-head style-8 mb-40">
+            <div
+              className="section-head style-8 mb-40"
+              style={{ textAlign: "center", margin: "15px" }}
+            >
               <h3 className="wow fadeInUp"> Nestros valores </h3>
             </div>
             <div className="swiper-container">

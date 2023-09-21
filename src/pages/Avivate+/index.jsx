@@ -22,6 +22,7 @@ import FooterA from "@components/IT/Footer2A";
 import About4A from "@components/ITCreative/About4A";
 import Ejes from "@components/ITCreative/EjesA";
 import About5A from "@components/ITCreative/About5A";
+import Clients from "@components/Saas/Clients";
 
 const FullStack = () => {
   useEffect(() => {
@@ -70,6 +71,7 @@ const FullStack = () => {
           <TestimonialsA />
           <Testi />
           <br></br>
+          <Clients />
           {/*  <Form style="5" /> */}
           {/*  <Abales /> */}
         </main>

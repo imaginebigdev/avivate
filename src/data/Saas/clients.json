@@ -1,18 +1,21 @@
 {
   "row1": [
-    "/assets/img/logos/7.png",
-    "/assets/img/logos/8.png",
-    "/assets/img/logos/9.png",
-    "/assets/img/logos/10.png",
-    "/assets/img/logos/11.png",
-    "/assets/img/logos/12.png"
+    "/assets/img/logos/senac.png",
+    "/assets/img/logos/mvt.png",
+    "/assets/img/logos/oi.png",
+    "/assets/img/logos/arg(1).png",
+    "/assets/img/logos/cruz.png",
+    "/assets/img/logos/cvc.png",
+    "/assets/img/logos/delfin.png"
   ],
   "row2": [
-    "/assets/img/logos/13.png",
-    "/assets/img/logos/14.png",
-    "/assets/img/logos/15.png",
-    "/assets/img/logos/16.png",
-    "/assets/img/logos/17.png",
-    "/assets/img/logos/9.png"
+    "/assets/img/logos/porta.png",
+    "/assets/img/logos/bio.png",
+    "/assets/img/logos/tsu.png",
+    "/assets/img/logos/rock.png",
+    "/assets/img/logos/muni.png",
+    "/assets/img/logos/cicc.png",
+    "/assets/img/logos/uvd.png",
+    "/assets/img/logos/elt.png"
   ]
 }
