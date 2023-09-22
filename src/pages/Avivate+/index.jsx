@@ -23,6 +23,7 @@ import About4A from "@components/ITCreative/About4A";
 import Ejes from "@components/ITCreative/EjesA";
 import About5A from "@components/ITCreative/About5A";
 import Clients from "@components/Saas/Clients";
+/* import FormA from "@components/Contact/FormA"; */
 
 const FullStack = () => {
   useEffect(() => {
@@ -72,6 +73,8 @@ const FullStack = () => {
           <Testi />
           <br></br>
           <Clients />
+          <br></br>
+         {/*  <FormA style="5"/> */}
           {/*  <Form style="5" /> */}
           {/*  <Abales /> */}
         </main>

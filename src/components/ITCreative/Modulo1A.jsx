@@ -11,6 +11,18 @@ const Modulo1A = () => {
                 <span>Tramo 1</span>
                 <h2 className="mb-30">
                   <span> Tecnovida </span>
+                  <div
+                    style={{
+                      backgroundColor: "yellow",
+                      color: "black",
+                      padding: "5px 10px",
+                      borderRadius: "5px",
+                      float: "right",
+                      marginRight: "10px",
+                    }}
+                  >
+                    Online
+                  </div>
                 </h2>
               </div>
               <p className="text mb-40">
@@ -65,6 +77,7 @@ const Modulo1A = () => {
               </div> */}
             </div>
           </div>
+
           <div className="col-lg-6 order-0 order-lg-2">
             <div className="img mb-30 mb-lg-0">
               <img src="/assets/img/about/tec.png" alt="" />

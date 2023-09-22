@@ -109,7 +109,7 @@ const Clients = ({ padding, rtl }) => {
             >
               {clients.row2.map((client, i) => (
                 <SwiperSlide key={i}>
-                  <a href="#" className="img">
+                  <a href="" className="img">
                     <img src={client} alt="" />
                   </a>
                 </SwiperSlide>

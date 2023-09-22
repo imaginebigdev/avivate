@@ -12,6 +12,18 @@ const Modulo4A = () => {
                 <span>Tramo 4</span>
                 <h2 className="mb-30">
                   <span> Lanzamiento </span>
+                  <div
+                    style={{
+                      backgroundColor: "yellow",
+                      color: "black",
+                      padding: "5px 10px",
+                      borderRadius: "5px",
+                      float: "right",
+                      marginRight: "10px",
+                    }}
+                  >
+                    Online
+                  </div>
                 </h2>
               </div>
               <p className="text mb-40">

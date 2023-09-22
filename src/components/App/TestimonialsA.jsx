@@ -26,7 +26,14 @@ const TestimonialsA = () => {
             >
               <h3 className="wow fadeInUp"> Nestros valores </h3>
             </div>
-            <div className="swiper-container">
+            <div
+              className="swiper-container"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               {load ? (
                 <Swiper
                   slidesPerView={3}

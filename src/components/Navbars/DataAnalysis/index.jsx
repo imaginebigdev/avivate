@@ -54,7 +54,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-4">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-8">
               <li className="nav-item">
                 <Link
                   className="nav-link"
@@ -85,7 +85,7 @@ const Navbar = () => {
                   Ejes
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link"
                   to="problematica"
@@ -94,12 +94,12 @@ const Navbar = () => {
                 >
                   Problematica
                 </Link>
-              </li>
-              {/* <li className="nav-item">
-                <Link2 href={`/Avivate+`} >
+              </li> */}
+              <li className="nav-item">
+                <Link2 href={`/Avivate+`}>
                   <span className="nav-link"> Avivate +</span>
                 </Link2>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link2 href={`/Fullstack`} /* className="nav-link" */>
                   <span className="nav-link"> Curso FullStack</span>

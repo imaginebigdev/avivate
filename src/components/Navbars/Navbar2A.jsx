@@ -54,7 +54,7 @@ const Navbar2 = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-4">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-7">
               <li className="nav-item">
                 <Link
                   className="nav-link"
@@ -120,6 +120,19 @@ const Navbar2 = () => {
                   Volver
                 </a>
               </li>
+              <div className="nav-side">
+                <a
+                  className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform"
+                  download="Avivate2023.pdf"
+                >
+                  <span style={{ color: "#000" }}>
+                    {" "}
+                    Anotate aqui{" "}
+                    <i className="fal fa-long-arrow-right ms-2"></i>{" "}
+                  </span>
+                </a>
+              </div>
             </ul>
           </div>
         </div>

@@ -54,7 +54,7 @@ const Navbar2 = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-4">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-7">
               <li className="nav-item">
                 <Link
                   className="nav-link"
