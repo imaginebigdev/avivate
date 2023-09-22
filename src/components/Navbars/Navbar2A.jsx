@@ -58,7 +58,7 @@ const Navbar2 = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="inicio"
+                  to="arch-slider"
                   smooth="true"
                   duration={100}
                 >

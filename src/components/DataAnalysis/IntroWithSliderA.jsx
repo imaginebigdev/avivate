@@ -34,7 +34,7 @@ const IntroWithSliderA = ({ sliderRef }) => {
   return (
     <header ref={sliderRef} id="arch-slider" className="slider arch-slider">
       <Navbar2A />
-      <div className="swiper-container parallax-slider">
+      <div className="swiper-container parallax-slider" >
         {!load ? (
           <Swiper
             speed={1000}
