@@ -26,6 +26,7 @@
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "sass": "^1.54.3",
+    "slick": "^1.12.2",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.7.23",
     "swiper": "^8.3.2"

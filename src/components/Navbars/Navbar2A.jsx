@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-scroll";
 import Link2 from "next/link";
 
@@ -6,30 +6,18 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 
 const Navbar2 = () => {
   const navbarRef = useRef(null);
+  const [isEtapaMenuOpen, setIsEtapaMenuOpen] = useState(false);
 
   useEffect(() => {
     navbarScrollEffect(navbarRef.current);
   }, [navbarRef]);
 
-  const handleMouseMove = (event) => {
-    const dropDownToggler = event.target.classList.contains("dropdown-toggle")
-      ? event.target
-      : event.target.querySelector(".dropdown-toggle");
-    const dropDownMenu = dropDownToggler?.nextElementSibling;
-
-    dropDownToggler?.classList?.add("show");
-    dropDownMenu?.classList?.add("show");
+  const toggleEtapaMenu = () => {
+    setIsEtapaMenuOpen(!isEtapaMenuOpen);
   };
 
-  const handleMouseLeave = (event) => {
-    const dropdown = event.target.classList.contains("dropdown")
-      ? event.target
-      : event.target.closest(".dropdown");
-    const dropDownToggler = dropdown.querySelector(".dropdown-toggle");
-    const dropDownMenu = dropdown.querySelector(".dropdown-menu");
-
-    dropDownToggler?.classList?.remove("show");
-    dropDownMenu?.classList?.remove("show");
+  const closeEtapaMenu = () => {
+    setIsEtapaMenuOpen(false);
   };
 
   return (
@@ -40,7 +28,12 @@ const Navbar2 = () => {
       >
         <div className="container">
           <Link2 className="navbar-brand" href="/">
-            <img className="logo" src="/assets/img/logo_home8.png" alt="" />
+            <img
+              className="logo"
+              src="/assets/img/logo_home8.png"
+              alt=""
+              style={{ cursor: "pointer" }}
+            />
           </Link2>
           <button
             className="navbar-toggler"
@@ -54,22 +47,23 @@ const Navbar2 = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-7">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-4">
               <li className="nav-item">
                 <Link
                   className="nav-link"
                   to="arch-slider"
-                  smooth="true"
+                  smooth={true}
                   duration={100}
                 >
                   Inicio
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link
                   className="nav-link"
                   to="nosotros"
-                  smooth="true"
+                  smooth={true}
                   duration={100}
                 >
                   De Qué Trata
@@ -78,62 +72,84 @@ const Navbar2 = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="modulo1"
-                  smooth="true"
+                  to="contacto"
+                  smooth={true}
                   duration={100}
                 >
-                  Etapa 1
+                  Contacto
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="modulo2"
-                  smooth="true"
-                  duration={100}
+                <li
+                  className={`nav-link ${isEtapaMenuOpen ? "active" : ""}`}
+                  onClick={toggleEtapaMenu}
                 >
-                  Etapa 2
-                </Link>
+                  Etapas <i className="fas fa-caret-down"></i>
+                </li>
+                {isEtapaMenuOpen && (
+                  <ul className="sub-menu">
+                    <li className="nav-item">
+                      <Link
+                        className="nav-link"
+                        to="modulo1"
+                        smooth={true}
+                        duration={100}
+                        onClick={closeEtapaMenu}
+                      >
+                        Etapa 1
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        className="nav-link"
+                        to="modulo2"
+                        smooth={true}
+                        duration={100}
+                        onClick={closeEtapaMenu}
+                      >
+                        Etapa 2
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        className="nav-link"
+                        to="modulo3"
+                        smooth={true}
+                        duration={100}
+                        onClick={closeEtapaMenu}
+                      >
+                        Etapa 3
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        className="nav-link"
+                        to="modulo4"
+                        smooth={true}
+                        duration={100}
+                        onClick={closeEtapaMenu}
+                      >
+                        Etapa 4
+                      </Link>
+                    </li>
+                  </ul>
+                )}
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="modulo3"
-                  smooth="true"
-                  duration={100}
-                >
-                  Etapa 3
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="modulo3"
-                  smooth="true"
-                  duration={100}
-                >
-                  Etapa 4
-                </Link>
-              </li>
-              <li className="nav-item">
-                <a href={`/`} className="nav-link">
-                  Volver
-                </a>
-              </li>
-              <div className="nav-side">
-                <a
-                  className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform"
-                  download="Avivate2023.pdf"
-                >
-                  <span style={{ color: "#000" }}>
-                    {" "}
-                    Anotate aqui{" "}
-                    <i className="fal fa-long-arrow-right ms-2"></i>{" "}
-                  </span>
-                </a>
-              </div>
             </ul>
+            <div className="nav-side">
+              <button
+                className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
+                onClick={() => {
+                  window.location.href =
+                    "https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform";
+                }}
+              >
+                <span style={{ color: "#000" }}>
+                  {" "}
+                  Anotate aquí <i className="fal fa-long-arrow-right ms-2"></i>{" "}
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       </nav>

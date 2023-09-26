@@ -23,6 +23,8 @@ import About4A from "@components/ITCreative/About4A";
 import Ejes from "@components/ITCreative/EjesA";
 import About5A from "@components/ITCreative/About5A";
 import Clients from "@components/Saas/Clients";
+import Services from "@components/ITCreative/Services";
+import Form from "@components/Contact/Form";
 /* import FormA from "@components/Contact/FormA"; */
 
 const FullStack = () => {
@@ -52,15 +54,16 @@ const FullStack = () => {
   return (
     <>
       <Head>
-        <title>Avivate - FullStack</title>
+        <title>Avivate - Avivate+</title>
       </Head>
 
       <MainLayout>
         <IntroWithSliderA />
         <main>
           <About2A />
-          <About4A />
-          <Ejes />
+          {/*   <About4A /> */}
+          <Services />
+
           <About5A />
           <Modulo1A />
           <br></br>
@@ -68,15 +71,13 @@ const FullStack = () => {
           <br></br>
           <Modulo3A />
           <Modulo4A />
-          <About3A />
-          <TestimonialsA />
+          {/* <About3A /> */}
+          {/*     <TestimonialsA /> */}
           <Testi />
           <br></br>
           <Clients />
           <br></br>
-         {/*  <FormA style="5"/> */}
-          {/*  <Form style="5" /> */}
-          {/*  <Abales /> */}
+          <Form style="5" />
         </main>
         <FooterA />
       </MainLayout>

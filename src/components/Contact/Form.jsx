@@ -80,7 +80,7 @@ const Form = ({ style = "4", rtl }) => {
     >
       {style === "5" && (
         <>
-          <div className="section-head text-center mb-100 style-5">
+          <div className="section-head text-center mb-100 style-5 pt-80">
             <h2 className="mb-20">{rtl ? "يسعدنا" : "Contáctanos!"} </h2>
             <p>
               {rtl

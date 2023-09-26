@@ -10,6 +10,7 @@ import Header2 from "@components/DataAnalysis/Header2";
 import Modulo2 from "@components/ITCreative/Modulo2";
 import Modulo3 from "@components/ITCreative/Modulo3";
 import Footer2 from "@components/IT/Footer2";
+import Form from "@components/Contact/Form";
 import Abales from "@components/ITCreative/Abales";
 
 const FullStack = () => {
@@ -55,6 +56,7 @@ const FullStack = () => {
           <br></br>
           {/*  <Form style="5" /> */}
           {/*  <Abales /> */}
+          <Form style="5" />
         </main>
         <Footer2 />
       </MainLayout>

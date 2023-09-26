@@ -20,7 +20,7 @@ class Testi extends React.Component {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head  text-center">
-                <h3>Entrenador</h3>
+                <h3 style={{ color: "#3a9fe3ff" }}>Entrenador</h3>
               </div>
             </div>
           </div>

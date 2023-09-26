@@ -10,13 +10,13 @@ const Modulo2A = () => {
             {/* Cambiado el tamaño a col-lg-6 */}
             <div className="info">
               <div className="section-head style-4">
-                <span>Tramo 2</span>
+                <small>Etapa 2</small>
                 <h2 className="mb-30">
                   <span> Optimización </span>
                   <div
                     style={{
-                      backgroundColor: "yellow",
-                      color: "black",
+                      backgroundColor: "#ffed4fff",
+                      color: "#000",
                       padding: "5px 10px",
                       borderRadius: "5px",
                       float: "right",
@@ -27,19 +27,79 @@ const Modulo2A = () => {
                   </div>
                 </h2>
               </div>
-              <p className="text mb-40">
-                En esta etapa podrás conectarte con la potencia de la
-                optimización en cada red social. Veremos los aspectos
-                fundamentales de la comunicación digital. También haremos una
-                revisión e inducción sistemática de aplicaciones que te harán
-                exponenciar en tu performance digital. Es un espacio de conexión
-                con las nuevas tecnologías de la información que están
-                disponibles para crear.. En este sprint vemos la introducción a
-                Chat GPT, Inteligencia Artificial aplicada a la vida diaria ,
-                billeteras digitales, Google aplicaciones, Editores de Imagenes,
-                Editores de Video, Redes Sociales . Dentro del módulo aprenderás
-                a optimizar tu perfil digital en Redes Sociales.
-              </p>
+              <ul>
+                <li className="d-flex align-items-center">
+                  <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
+                  <h6 className="fw-bold">Optimización Perfil Digital</h6>
+                </li>
+                <li className="d-flex align-items-center">
+                  <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
+                  <h6 className="fw-bold">Chat GPT</h6>
+                </li>
+                <li className="d-flex align-items-center">
+                  <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
+                  <h6 className="fw-bold">Inteligencia Artificial</h6>
+                </li>
+                <li className="d-flex align-items-center">
+                  <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
+                  <h6 className="fw-bold">Billeteras Digitales</h6>
+                </li>
+                <li className="d-flex align-items-center">
+                  <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
+                  <h6 className="fw-bold">Google Aplicaciones</h6>
+                </li>
+                <li className="d-flex align-items-center">
+                  <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
+                  <h6 className="fw-bold">Editores de Imágenes y Videos</h6>
+                </li>
+                <li className="d-flex align-items-center">
+                  <i className="bi bi-dot fs-2 me-2 lh-1 color-red2"></i>
+                  <h6 className="fw-bold">Redes Sociales</h6>
+                </li>
+              </ul>
+              <div className="accordion pt-50" id="accordionExample">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className={`accordion-button`}
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#collapse`}
+                      aria-expanded="true"
+                      aria-controls={`collapse`}
+                      style={{
+                        borderColor: "#e73f7fff",
+                        backgroundColor: "#e7f1ff",
+                      }}
+                    >
+                      Mas Info ...
+                    </button>
+                  </h2>
+                  <div
+                    id={`collapse`}
+                    className={`accordion-collapse collapse `}
+                    aria-labelledby={`heading`}
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      En esta etapa podrás conectarte con la potencia de la
+                      optimización en cada red social. Veremos los aspectos
+                      fundamentales de la comunicación digital. También haremos
+                      una revisión e inducción sistemática de aplicaciones que
+                      te harán exponenciar en tu performance digital. Es un
+                      espacio de conexión con las nuevas tecnologías de la
+                      información que están disponibles para crear.. En este
+                      sprint vemos la introducción a Chat GPT, Inteligencia
+                      Artificial aplicada a la vida diaria , billeteras
+                      digitales, Google aplicaciones, Editores de Imagenes,
+                      Editores de Video, Redes Sociales . Dentro del módulo
+                      aprenderás a optimizar tu perfil digital en Redes
+                      Sociales.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className="text mb-40"></p>
               {/* <div className="faq style-3 style-4">
                 <div className="accordion" id="accordionExample">
                   {features4.map((accordion, index) => (
@@ -81,7 +141,7 @@ const Modulo2A = () => {
             {" "}
             {/* Cambiado el tamaño a col-lg-5 */}
             <div className="img mb-30 mb-lg-0">
-              <img src="/assets/img/about/opt.png" alt="" />
+              <img src="/assets/img/about/about02.png" alt="" />
             </div>
           </div>
         </div>

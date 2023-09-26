@@ -1,26 +1,26 @@
 [
   {
-    "image": "/assets/img/icons/serv_icons/21.png",
+    "image": "/assets/img/red.png",
     "icon": "fas fa-globe",
-    "title": "Networking Solution",
-    "description": "Convoy with popular belief is a not rendom idea."
+    "title": "TECNOVIDA",
+    "description": "Marca digital, visión, proyecto, test personal, cultura digital, prácticas potenciadoras. intriducción a la alfabetización digital"
   },
   {
-    "image": "/assets/img/icons/serv_icons/22.png",
+    "image": "/assets/img/mano.png",
     "icon": "fas fa-book",
-    "title": "Business Solution",
-    "description": "Convoy with popular belief is a not rendom idea."
+    "title": "OPTIMIZACIÓN",
+    "description": "Chat GPT, Inteligencia Artificial, Billeteras Virtuales, Editores de Imagen / Video, Redes Sociales, Optimización perfil digital."
   },
   {
-    "image": "/assets/img/icons/serv_icons/23.png",
+    "image": "/assets/img/cq.png",
     "icon": "fas fa-bell",
-    "title": "Group Tasking",
-    "description": "Convoy with popular belief is a not rendom idea."
+    "title": "MARATÓN",
+    "description": "Taller de Buenas Brácticas. Reconversión Tecnológica, Configuración de Dispositivos. Ciudadanía Responsable en Internet"
   },
   {
-    "image": "/assets/img/icons/serv_icons/24.png",
+    "image": "/assets/img/ex.png",
     "icon": "fas fa-users",
-    "title": "Financial Service",
-    "description": "Convoy with popular belief is a not rendom idea."
+    "title": "LANZAMIENTO",
+    "description": "Técnicas, y tecnología para expandir un mensaje o contenido en Internet. Viralización, Ingenieria Social, lanzamiento de producto."
   }
 ]

@@ -7,14 +7,14 @@ const About2A = () => {
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6">
             <div className="img mb-4 mb-lg-0 wow fadeIn">
-              <img src="/assets/img/header/+.png" alt="" />
+              <img src="/assets/img/header/about00.png" alt="" />
             </div>
           </div>
           <div className="col-lg-5">
             <div className="info">
               <div className="section-head style-8 mb-40">
                 {/*   <h6 className="wow fadeInUp"> about our service </h6> */}
-                <h3 className="wow fadeInUp"> ¿Que es? </h3>
+                <h3 className="wow fadeInUp"> ¿Que Es? </h3>
               </div>
               <p className="color-666 wow fadeInUp">
                 {" "}

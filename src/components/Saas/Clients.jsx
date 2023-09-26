@@ -22,13 +22,9 @@ const Clients = ({ padding, rtl }) => {
       className={`clients style-5 ${padding ? "section-padding" : "pb-100"}`}
       data-scroll-index="2"
     >
-      <div className="section-head text-center mb-40 style-5">
-        <h2 className="mb-20">
-          <span>
-            {rtl
-              ? "العملاء"
-              : "Algunas empresas y organizaciones  que ha asesorado"}
-          </span>{" "}
+      <div className="section-head text-center mb-40 style-5 pt-50">
+        <h2 className="mb-20" style={{ color: "#3a9fe3ff" }}>
+          Algunas empresas y organizaciones que ha asesorado
         </h2>
       </div>
       <div className="content">
