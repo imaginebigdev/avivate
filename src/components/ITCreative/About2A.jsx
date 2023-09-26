@@ -18,8 +18,8 @@ const About2A = () => {
               </div>
               <p className="color-666 wow fadeInUp">
                 {" "}
-                AVIVATE MÁS una experiencia vivencial, para píblico general. Es
-                un programa de educación convencional combinando, +
+                AVIVATE MÁS una experiencia vivencial, para público general. Es
+                un programa de educación no convencional combinando, +
                 actualización tecnológica, arte, comunicación, creatividad,
                 estrategia persuasión digital con alto grado de compromiso en
                 toda la matriz tecnológica que nos toca vivir como individuos de
