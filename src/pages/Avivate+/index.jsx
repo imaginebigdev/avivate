@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Head from "next/head";
 //= Layout
 import MainLayout from "@layouts/Main";
@@ -25,31 +25,44 @@ import About5A from "@components/ITCreative/About5A";
 import Clients from "@components/Saas/Clients";
 import Services from "@components/ITCreative/Services";
 import Form from "@components/Contact/Form";
+import Swal from "sweetalert2";
 /* import FormA from "@components/Contact/FormA"; */
 
-const FullStack = () => {
+const AvivateMas = () => {
+  const [hasScrolled, setHasScrolled] = useState(false);
+
   useEffect(() => {
     document.body.classList.add("home-style-8");
 
-    /*   window.addEventListener("scroll", function () {
-      if (firstScroll) {
+    const handleScroll = () => {
+      if (!hasScrolled) {
+        // Mostrar Sweet Alert solo si no se ha hecho scroll antes
         Swal.fire({
           showCloseButton: true,
           buttonsStyling: true,
-
           showConfirmButton: false,
-          imageUrl: "/assets/img/alert.png",
+          imageUrl: "/assets/img/alert2.png",
           imageWidth: "auto",
           imageHeight: "auto",
           imageAlt: "Custom image",
           background: "#23252E",
           color: "#fff",
+          html: `
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSed3xy-76Eple4rZGGSgF56nfDZvBP_Rb_C3DDNlMKzVFaWgA/viewform" target="_blank" class="btn btn-primary">Anotate Aquí</a>
+          `,
         });
-        firstScroll = false;
+        setHasScrolled(true); // Establecer hasScrolled a true para evitar futuras alertas
       }
-    }); */
-    return () => document.body.classList.remove("home-style-8");
-  }, []);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      document.body.classList.remove("home-style-8");
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [hasScrolled]);
 
   return (
     <>
@@ -85,4 +98,4 @@ const FullStack = () => {
   );
 };
 
-export default FullStack;
+export default AvivateMas;

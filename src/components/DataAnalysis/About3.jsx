@@ -26,17 +26,65 @@ const AboutCordoba = () => {
                   Transformación y Alfabetización Digital{" "}
                   {/* <span style={{ color: "#e73f7fff" }}>Z</span> */}
                 </h2>
-                <a
-                  className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
-                  download
-                  href="/assets/files/DOSSIER-AVIVATE 2023.pdf"
-                >
-                  <span style={{ color: "#000" }}>
-                    {" "}
-                    Descargar PDF{" "}
-                    <i className="fal fa-long-arrow-right ms-2"></i>{" "}
-                  </span>
-                </a>
+
+                <div className="accordion pt-50" id="accordionExample">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className={`accordion-button $`}
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target={`#collapse`}
+                        aria-expanded="true"
+                        aria-controls={`collapse`}
+                        style={{
+                          borderColor: "#e73f7fff",
+                          backgroundColor: "#e7f1ff",
+                          textAlign: "center",
+                        }}
+                      >
+                        Próximas Fechas
+                      </button>
+                    </h2>
+                    <div
+                      id={`collapse`}
+                      className={`accordion-collapse collapse `}
+                      aria-labelledby={`heading`}
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <li>
+                          <a
+                            className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSdWi6jIM3L4lVt4BGItQ7NHJswaSbjc6UftJufCZirPMBmV4A/viewform"
+                          >
+                            <span style={{ color: "#000" }}>
+                              {" "}
+                              Incripción Avivate General Roca, Rio Negro{" "}
+                              <i className="fal fa-long-arrow-right ms-2"></i>{" "}
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform"
+                          >
+                            <span style={{ color: "#000" }}>
+                              {" "}
+                              Incripción Avivate Catamarca{" "}
+                              <i className="fal fa-long-arrow-right ms-2"></i>{" "}
+                            </span>
+                          </a>
+                        </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -47,9 +95,9 @@ const AboutCordoba = () => {
                 <h1>
                   <span style={{ color: "#e73f7fff" }}>+ de un millón</span>
                 </h1>
-                <h3>Jovenes y Adultos</h3>
+                <h3>de Jóvenes y Adultos</h3>
                 <h4>
-                  habla hispana en América Norte, Central y Sur.{" "}
+                  de habla hispana en América del Norte, Central y del Sur.{" "}
                   {/* <span style={{ color: "#e73f7fff", letterSpacing: "1px" }}>
                     CENTENNIALS
                   </span> */}

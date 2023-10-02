@@ -119,13 +119,13 @@ const Navbar = () => {
             </ul>
             <div className="nav-side">
               <a
-                className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform"
-                download="Avivate2023.pdf"
+                className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                download
+                href="/assets/files/DOSSIER-AVIVATE 2023.pdf"
               >
                 <span style={{ color: "#000" }}>
                   {" "}
-                  Inscripción AVIVATE Catamarca{" "}
+                  Descargá el proyecto{" "}
                   <i className="fal fa-long-arrow-right ms-2"></i>{" "}
                 </span>
               </a>
