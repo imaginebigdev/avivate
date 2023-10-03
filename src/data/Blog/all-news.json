@@ -120,6 +120,17 @@
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/866593003"
+    },
+    {
+      "id": "13",
+      "cover": "/assets/img/blog/modulo.jpg",
+      "type": "CLASE 1",
+      "time": "02/10",
+      "title": "Introducción a HTML y CSS",
+      "userImgLetter": "a",
+      "username": "Gaspar Muñoz",
+      "video": "https://vimeo.com/870651761"
     }
+
   ]
 }
