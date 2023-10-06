@@ -74,7 +74,7 @@ const AvivateMas = () => {
         <IntroWithSliderA />
         <main>
           <About2A />
-          {/*   <About4A /> */}
+
           <Services />
 
           <About5A />
