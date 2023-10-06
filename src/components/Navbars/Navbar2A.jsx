@@ -141,7 +141,7 @@ const Navbar2 = () => {
                 className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0"
                 onClick={() => {
                   window.location.href =
-                    "https://docs.google.com/forms/d/e/1FAIpQLSf-X6JlDWkk_A0ebVtFZ5m0qCFK14AX7YslDAA_GoTI3Tw2_g/viewform";
+                    "https://docs.google.com/forms/d/e/1FAIpQLSed3xy-76Eple4rZGGSgF56nfDZvBP_Rb_C3DDNlMKzVFaWgA/viewform";
                 }}
               >
                 <span style={{ color: "#000" }}>

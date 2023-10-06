@@ -14,6 +14,6 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const NoticiasApp = initializeApp(firebaseConfig);
+const clasesApp = initializeApp(firebaseConfig);
 
-export default NoticiasApp;
+export default clasesApp;
