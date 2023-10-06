@@ -16,8 +16,6 @@ import Blogs from "@components/Blog/AllNews/Blogs";
 import Blogs2 from "@components/App/Clases";
 import AllNews from "@components/Blog/AllNews";
 import clasesApp from "../../fb";
-import VerNoticias from "../../components/VerNoticias/verNoticias";
-import AgregarNoticia from "../../components/Agregar-noticia/agregarNoticia";
 
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
