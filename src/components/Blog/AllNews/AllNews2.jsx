@@ -1,10 +1,9 @@
 import React from "react";
-import Blogs from "./Blogs";
-import allNewsData from "@data/Blog/all-news.json";
-import allNewsDataRTL from "@data/Blog/all-news-rtl.json";
+import Blog2 from "./Blog2";
+import allNewsData from "@data/Blog/modulo2.json";
 
-const AllNews = ({ isWide, leftSidebar, style = "4", rtl }) => {
-  const data = rtl ? allNewsDataRTL : allNewsData;
+const AllNews2 = ({ isWide, leftSidebar, style = "4" }) => {
+  const data = allNewsData;
 
   return (
     <section className="all-news section-padding blog bg-transparent style-3">
@@ -14,11 +13,11 @@ const AllNews = ({ isWide, leftSidebar, style = "4", rtl }) => {
             isWide ? "" : leftSidebar ? "gx-5" : "gx-4 gx-lg-5"
           }`}
         >
-          <Blogs blogs={data.blogs} isWide={isWide} style={style} />
+          <Blog2 blogs={data.blog2} isWide={isWide} style={style} />
         </div>
       </div>
     </section>
   );
 };
 
-export default AllNews;
+export default AllNews2;

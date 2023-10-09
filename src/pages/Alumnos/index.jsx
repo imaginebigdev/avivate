@@ -3,8 +3,8 @@ import Head from "next/head";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import NoticiasApp from "../../fb";
 import Logueo from "../Logueo";
-import Clases from "../Clases";
-import AdminPage from "../AdminPage"; // Importa la página de administrador si es necesario
+import Modulos from "../Modulos";
+import AdminPage from "../AdminPage";
 
 const auth = getAuth(NoticiasApp);
 
@@ -41,7 +41,7 @@ const Alumnos = () => {
       </Head>
       {usuarioGlobal ? (
         usuarioGlobal.rol === "alumno" ? (
-          <Clases correoUsuario={usuarioGlobal.email} />
+          <Modulos correoUsuario={usuarioGlobal.email} />
         ) : usuarioGlobal.rol === "admin" ? (
           <AdminPage />
         ) : (

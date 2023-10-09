@@ -14,7 +14,7 @@ import Abales from "@components/ITCreative/Abales";
 import Clases from "@components/App/Clases";
 import Blogs from "@components/Blog/AllNews/Blogs";
 import Blogs2 from "@components/App/Clases";
-import AllNews from "@components/Blog/AllNews";
+import AllNews from "@components/Blog/AllNews/AllNews";
 import clasesApp from "../../fb";
 
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";

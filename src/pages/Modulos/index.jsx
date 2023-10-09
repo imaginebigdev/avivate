@@ -14,44 +14,28 @@ import Abales from "@components/ITCreative/Abales";
 import Clases from "@components/App/Clases";
 import Blogs from "@components/Blog/AllNews/Blogs";
 import Blogs2 from "@components/App/Clases";
-import AllNews from "@components/Blog/AllNews";
+import AllNews from "@components/Blog/AllNews/AllNews";
 import { getFirestore } from "firebase/firestore";
+import Features from "@components/Saas/Features";
+import Download from "@components/Saas/Download";
 
 const FullStack = ({ correoUsuario }) => {
   useEffect(() => {
     document.body.classList.add("home-style-8");
 
-    /*   window.addEventListener("scroll", function () {
-      if (firstScroll) {
-        Swal.fire({
-          showCloseButton: true,
-          buttonsStyling: true,
-
-          showConfirmButton: false,
-          imageUrl: "/assets/img/alert.png",
-          imageWidth: "auto",
-          imageHeight: "auto",
-          imageAlt: "Custom image",
-          background: "#23252E",
-          color: "#fff",
-        });
-        firstScroll = false;
-      }
-    }); */
     return () => document.body.classList.remove("home-style-8");
   }, []);
 
   return (
     <>
       <Head>
-        <title>Avivate - FullStack - Clases</title>
+        <title>Avivate - FullStack - Modulos</title>
       </Head>
 
       <MainLayout>
         <Header3 />
-
         <main>
-          <AllNews />
+          <Features />
         </main>
         <Footer3 />
       </MainLayout>

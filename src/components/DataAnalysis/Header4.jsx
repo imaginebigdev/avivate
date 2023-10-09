@@ -5,7 +5,7 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 
-const Header2 = () => {
+const Header4 = () => {
   const [isOpen, setOpen] = useState(false);
 
   const openVideo = (e) => {
@@ -14,9 +14,9 @@ const Header2 = () => {
   };
   return (
     <header className="style-8 bg-gray2" id="inicio">
-      <Navbar3 />
+      <Navbar4 />
     </header>
   );
 };
 
-export default Header2;
+export default Header4;

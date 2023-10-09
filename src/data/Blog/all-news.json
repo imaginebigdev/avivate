@@ -2,7 +2,7 @@
   "blogs": [
     {
       "id": "1",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 0",
       "time": "14/08",
       "title": "Instalación / Configuración de Herramientas",
@@ -12,7 +12,7 @@
     },
     {
       "id": "2",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 01",
       "time": "15/08",
       "title": "Introducción a Javascript",
@@ -23,7 +23,7 @@
     },
     {
       "id": "3",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 02",
       "time": "16/08",
       "title": "Javascript Basico 1",
@@ -33,7 +33,7 @@
     },
     {
       "id": "4",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 03",
       "time": "17/08",
       "title": "Javascript intermedio 1",
@@ -43,7 +43,7 @@
     },
     {
       "id": "5",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 04",
       "time": "18/08",
       "title": "Javascript intermedio 2",
@@ -53,7 +53,7 @@
     },
     {
       "id": "6",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 05",
       "time": "21/08",
       "title": "Javascript intermedio 3",
@@ -63,7 +63,7 @@
     },
     {
       "id": "7",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 06",
       "time": "21/08",
       "title": "Javascript intermedio 4",
@@ -73,7 +73,7 @@
     },
     {
       "id": "8",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 07",
       "time": "11/09",
       "title": "Javascript Avanzado Recursion",
@@ -83,7 +83,7 @@
     },
     {
       "id": "9",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 08",
       "time": "12/09",
       "title": "Javascript Avanzado LinkedList",
@@ -93,7 +93,7 @@
     },
     {
       "id": "10",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 09",
       "time": "18/09",
       "title": "Javascript Avanzado Arboles binarios 1",
@@ -103,7 +103,7 @@
     },
     {
       "id": "11",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 11",
       "time": "19/09",
       "title": "Javascript Avanzado Arboles binarios 2",
@@ -113,23 +113,13 @@
     },
     {
       "id": "12",
-      "cover": "/assets/img/blog/modulo.jpg",
+      "cover": "/assets/img/blog/modulo1.jpg",
       "type": "CLASE 12",
       "time": "20/09",
       "title": "Javascript Avanzado Algoritmos",
       "userImgLetter": "a",
       "username": "Sebastian Cerruti",
       "video": "https://vimeo.com/866593003"
-    },
-    {
-      "id": "13",
-      "cover": "/assets/img/blog/modulo.jpg",
-      "type": "CLASE 1",
-      "time": "02/10",
-      "title": "Introducción a HTML y CSS",
-      "userImgLetter": "a",
-      "username": "Gaspar Muñoz",
-      "video": "https://vimeo.com/870651761"
     }
 
   ]

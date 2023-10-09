@@ -1,0 +1,59 @@
+{
+  "blog2": [
+   
+    {
+      "id": "1",
+      "cover": "/assets/img/blog/modulo2.jpg",
+      "type": "CLASE 1",
+      "time": "02/10",
+      "title": "Introducción a HTML y CSS",
+      "userImgLetter": "a",
+      "username": "Gaspar Muñoz",
+      "video": "https://vimeo.com/870651761"
+    },
+    {
+      "id": "2",
+      "cover": "/assets/img/blog/modulo2.jpg",
+      "type": "CLASE 2",
+      "time": "03/10",
+      "title": "Manejo del DOM",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerutti",
+      "video": "https://vimeo.com/871471674"
+    },
+    {
+      "id": "3",
+      "cover": "/assets/img/blog/modulo2.jpg",
+      "type": "CLASE 3",
+      "time": "04/10",
+      "title": "Introducción React",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerutti",
+      "video": "https://vimeo.com/871474941"
+    },
+    {
+      "id": "4",
+      "cover": "/assets/img/blog/modulo2.jpg",
+      "type": "CLASE 4",
+      "time": "05/10",
+      "title": "React Estilos",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerutti",
+      "video": "https://vimeo.com/872011613"
+    },
+    {
+      "id": "5",
+      "cover": "/assets/img/blog/modulo2.jpg",
+      "type": "CLASE 5",
+      "time": "06/10",
+      "title": "React Estados - Ciclos de vida de un componente",
+      "userImgLetter": "a",
+      "username": "Sebastian Cerutti",
+      "video": "https://vimeo.com/872011838"
+    }
+
+
+
+
+  ]
+}
