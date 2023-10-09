@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import Link2 from "next/link";
+import Link from "next/link";
 import blogApp from "../../../fb";
 import { Button } from "react-bootstrap";
 import { getAuth, signOut } from "firebase/auth";
@@ -43,9 +43,9 @@ const Navbar4 = () => {
         ref={navbarRef}
       >
         <div className="container">
-          <Link2 className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/">
             <img className="logo" src="/assets/img/logo_home8.png" alt="" />
-          </Link2>
+          </Link>
           {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0 ps-4">
               <li className="nav-item">
@@ -60,10 +60,9 @@ const Navbar4 = () => {
           </div> */}
           <ul className="navbar-nav ml-auto mb-2 mb-lg-0 pe-4">
             <li className="nav-item">
-              <a href="/Modulos" className="nav-link">
-                {" "}
-                Volver a Módulos
-              </a>
+              <Link href={"/Modulos"} className="nav-link">
+                <a className="nav-link">Volver a Módulos</a>
+              </Link>
             </li>
             {/*  <li className="nav-item">
               <button
