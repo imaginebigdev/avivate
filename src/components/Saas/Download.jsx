@@ -7,7 +7,7 @@ const Download = () => {
             <div className="content text-center">
               <h2>
                 {" "}
-                Cada módulo te acerca a ser un .
+                Cada módulo te acerca a ser un
                 <span className="me-2">
                   Full Stack Dev
                   <img
