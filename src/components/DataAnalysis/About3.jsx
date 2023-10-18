@@ -83,6 +83,77 @@ const AboutCordoba = () => {
                         </li>
                       </div>
                     </div>
+                    <h2 className="accordion-header">
+                      <button
+                        className={`accordion-button $`}
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target={`#calendario`}
+                        aria-expanded="true"
+                        aria-controls={`collapse`}
+                        style={{
+                          borderColor: "#e73f7fff",
+                          backgroundColor: "#e7f1ff",
+                          textAlign: "center",
+                        }}
+                      >
+                        Calendarios
+                      </button>
+                    </h2>
+                    <div
+                      id={`calendario`}
+                      className={`accordion-collapse collapse `}
+                      aria-labelledby={`heading`}
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <li>
+                          <span
+                            className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                            style={{ color: "#000", fontSize: "12px" }}
+                          >
+                            {" "}
+                            25 DE OCTUBRE AVIVATE GRAL. R O C A - RIO NEGRO{" "}
+                          </span>
+                        </li>
+                        <li>
+                          <span
+                            className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                            style={{ color: "#000", fontSize: "12px" }}
+                          >
+                            {" "}
+                            3 Y 4 DE NOVIEMBRE AVIVATE FEST - C A T A M A R C A{" "}
+                          </span>
+                        </li>
+                        <li>
+                          <span
+                            className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                            style={{ color: "#000", fontSize: "12px" }}
+                          >
+                            {" "}
+                            10 DE NOVIEMBRE AVIVATE - BELL VILLE{" "}
+                          </span>
+                        </li>
+                        <li>
+                          <span
+                            className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                            style={{ color: "#000", fontSize: "12px" }}
+                          >
+                            {" "}
+                            17 DE NOVIEMBRE AVIVATE - ENTRERIOS{" "}
+                          </span>
+                        </li>
+                        <li>
+                          <span
+                            className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                            style={{ color: "#000", fontSize: "12px" }}
+                          >
+                            {" "}
+                            24 DE NOVIEMBRE AVIVATE - CARCARAÑA - SANTA FE{" "}
+                          </span>
+                        </li>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

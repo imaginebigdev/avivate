@@ -141,6 +141,45 @@ const Modulo3A = () => {
                   </div>
                 </div>
               </div>
+              <div className="accordion" id="accordionExample">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className={`accordion-button $`}
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#calendario3`}
+                      aria-expanded="true"
+                      aria-controls={`collapse`}
+                      style={{
+                        borderColor: "#e73f7fff",
+                        backgroundColor: "#e7f1ff",
+                        textAlign: "center",
+                      }}
+                    >
+                      Calendarios
+                    </button>
+                  </h2>
+                  <div
+                    id={`calendario3`}
+                    className={`accordion-collapse collapse `}
+                    aria-labelledby={`heading`}
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      <li>
+                        <span
+                          className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                          style={{ color: "#000", fontSize: "12px" }}
+                        >
+                          {" "}
+                          2 Y 3 DE DICIEMBRE TRAMO 3 - AVIVATE + PRESENCIAL{" "}
+                        </span>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-lg-5 order-lg-5">

@@ -85,7 +85,6 @@ const Modulo1A = () => {
                   </h6>
                 </li>
               </ul>
-
               <div className="accordion pt-50" id="accordionExample">
                 <div className="accordion-item">
                   <h2 className="accordion-header">
@@ -125,6 +124,51 @@ const Modulo1A = () => {
                       haremos un test personal, orientado a conocer tu propósito
                       y tu visión de lo significativo que quieras desarrollar en
                       tu vida haciendo uso de Internet.
+                    </div>
+                  </div>{" "}
+                  <h2 className="accordion-header">
+                    <button
+                      className={`accordion-button $`}
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={`#calendario1`}
+                      aria-expanded="true"
+                      aria-controls={`collapse`}
+                      style={{
+                        borderColor: "#e73f7fff",
+                        backgroundColor: "#e7f1ff",
+                        textAlign: "center",
+                      }}
+                    >
+                      Calendarios
+                    </button>
+                  </h2>
+                  <div
+                    id={`calendario1`}
+                    className={`accordion-collapse collapse `}
+                    aria-labelledby={`heading`}
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      <li>
+                        <span
+                          className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                          style={{ color: "#000", fontSize: "12px" }}
+                        >
+                          {" "}
+                          14 DE NOVIEMBRE TRAMO 1 - AVIVATE + - 20 HS{" "}
+                        </span>
+                      </li>
+                      <li>
+                        <span
+                          className="butn bg-orange2 border-0 rounded-pill hover-shadow flex-shrink-0 mt-50"
+                          style={{ color: "#000", fontSize: "10px" }}
+                        >
+                          {" "}
+                          15 DE NOVIEMBRE TRAMO 1 - AVIVATE + - 21 HS POST
+                          TRAINING{" "}
+                        </span>
+                      </li>
                     </div>
                   </div>
                 </div>
