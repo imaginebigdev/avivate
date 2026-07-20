@@ -86,11 +86,10 @@ class Testi extends React.Component {
                   </div>
                   <div className="valign">
                     <p className="fz-20 fw-200">
-                      Director de IMAGINE BIG (Empresa IT De desarrollo y
-                      Software Factory). www.imaginebig.dev Creador y fundador
-                      del programa AVIVATE. (Aprender a Vivir con Valores
-                      Tecnológicos). www.avivate.ar Desde el año 2003 asesorando
-                      empresas y organizaciones, creando modelos de innovaciòn
+                      CEO y fundador de PROMPTEAR. Director del Instituto
+                      AVIVATE (Aprender a Vivir con Valores Tecnológicos).
+                      www.avivate.ar — Desde el año 2003 asesorando empresas y
+                      organizaciones, creando modelos de innovación
                       tecnológica, aportando para el desarrollo de ONGs,
                       generando difusión de proyectos culturales y sostenibles
                       en Latinoamérica y USA.
